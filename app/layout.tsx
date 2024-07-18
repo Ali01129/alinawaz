@@ -14,29 +14,29 @@ const inter = Inter({
   variable: "--inter",
 });
 
-const options = {
-  title: "Ali Nawaz | Computer Scientist",
-  description:
-    "Ali Nawaz is a Mobile Application Developer who is passionate about building solutions and contributing to open source communities",
-  url: "https://alinawaz.vercel.app",
-};
+// const options = {
+//   title: "Ali Nawaz | Computer Scientist",
+//   description:
+//     "Ali Nawaz is a Mobile Application Developer who is passionate about building solutions and contributing to open source communities",
+//   url: "https://alinawaz.vercel.app",
+// };
 
-export const metadata: Metadata = {
-  title: options.title,
-  metadataBase: new URL(options.url),
-  description: options.description,
-  openGraph: {
-    title: options.title,
-    url: options.url,
-    siteName: "alinawaz.vercel.app",
-    locale: "en-US",
-    type: "website",
-    description: options.description,
-  },
-  alternates: {
-    canonical: options.url,
-  },
-};
+// export const metadata: Metadata = {
+//   title: options.title,
+//   metadataBase: new URL(options.url),
+//   description: options.description,
+//   openGraph: {
+//     title: options.title,
+//     url: options.url,
+//     siteName: "alinawaz.vercel.app",
+//     locale: "en-US",
+//     type: "website",
+//     description: options.description,
+//   },
+//   alternates: {
+//     canonical: options.url,
+//   },
+// };
 
 export default function RootLayout({
   children,
