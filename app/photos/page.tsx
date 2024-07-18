@@ -19,15 +19,12 @@ const images = [
 ];
 
 export const metadata: Metadata = {
-  title: "Photos | Victor Eke",
+  title: "Photos | Ali Nawaz",
   metadataBase: new URL("https://victoreke.com/photos"),
-  description: "Explore photos taken by Victor Eke",
+  description: "Explore photos taken by Ali",
   openGraph: {
-    title: "Photos | Victor Eke",
-    url: "https://victoreke.com/photos",
-    description: "Explore photos taken by Victor Eke",
-    images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692635149/victoreke/photos.png",
+    title: "Photos | Ali Nawaz",
+    url: "https://alinawaz.vercel.app",
   },
 };
 
