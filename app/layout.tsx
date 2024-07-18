@@ -17,10 +17,8 @@ const inter = Inter({
 const options = {
   title: "Ali Nawaz | Computer Scientist",
   description:
-    "Victor Eke is a Software Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
-  url: "https://victoreke.com",
-  ogImage:
-    "https://res.cloudinary.com/victoreke/image/upload/v1692635746/victoreke/og.png",
+    "Ali Nawaz is a Mobile Application Developer who is passionate about building solutions and contributing to open source communities",
+  url: "https://alinawaz.vercel.app",
 };
 
 export const metadata: Metadata = {
