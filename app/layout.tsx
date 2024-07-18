@@ -28,16 +28,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: options.title,
     url: options.url,
-    siteName: "victoreke.com",
+    siteName: "alinawaz.vercel.app",
     locale: "en-US",
     type: "website",
     description: options.description,
   },
   alternates: {
     canonical: options.url,
-  },
-  other: {
-    "google-site-verification": "IzcWMgn5Qjf-LCtA337KTGjivsf9bmod_1pZ-jxYQh8",
   },
 };
 
