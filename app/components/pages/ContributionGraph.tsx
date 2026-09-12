@@ -1,7 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
-import GitHubCalendar from "react-github-calendar";
-import { espionage, github } from "@/app/data/contribution-graph-theme";
+import { GitHubCalendar } from "react-github-calendar";
+import { github } from "@/app/data/contribution-graph-theme";
 import { useState, useEffect } from "react";
 import YearButton from "../shared/YearButton";
 import { getGitHubYears } from "@/app/utils/calculate-years";
@@ -11,18 +11,16 @@ export default function ContributionGraph() {
   const [calendarYear, setCalendarYear] = useState<number | undefined>(
     undefined
   );
+  const [mounted, setMounted] = useState(false);
   const { theme, systemTheme } = useTheme();
-  const [serverTheme, setServerTheme] = useState<"light" | "dark" | undefined>(
-    undefined
-  );
   const scheme =
     theme === "light" ? "light" : theme === "dark" ? "dark" : systemTheme;
 
-  // Set theme only after rendering to avoid mismatch between client and server
-  // https://github.com/vercel/next.js/issues/10608#issuecomment-589073831
+  // Defer calendar render until after mount — react-github-calendar fetches
+  // contribution data and produces different HTML on server vs client.
   useEffect(() => {
-    setServerTheme(scheme);
-  }, [scheme]);
+    setMounted(true);
+  }, []);
 
   const today = new Date().getFullYear();
   const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME;
@@ -39,14 +37,16 @@ export default function ContributionGraph() {
 
   return (
     <div className="flex xl:flex-row flex-col gap-4">
-      <div className="dark:bg-primary-bg bg-secondary-bg border dark:border-zinc-800 border-zinc-200 p-8 rounded-lg max-w-fit max-h-fit">
-        <GitHubCalendar
-          username={username}
-          theme={github}
-          colorScheme={serverTheme}
-          blockSize={13}
-          year={calendarYear}
-        />
+      <div className="dark:bg-primary-bg bg-secondary-bg border dark:border-zinc-800 border-zinc-200 p-8 rounded-lg max-w-fit max-h-fit min-h-[197px] min-w-[300px]">
+        {mounted ? (
+          <GitHubCalendar
+            username={username}
+            theme={github}
+            colorScheme={scheme === "dark" ? "dark" : "light"}
+            blockSize={13}
+            year={calendarYear}
+          />
+        ) : null}
       </div>
       <div className="flex justify-start xl:flex-col flex-row flex-wrap gap-2">
         {/* Display only the last five years */}

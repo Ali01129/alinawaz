@@ -1,15 +1,11 @@
-import { heroesQuery } from "@/lib/sanity.query";
 import { HeroeType } from "@/types";
 import EasterEgg from "../shared/EasterEgg";
 import { Slide } from "../../animation/Slide";
-import { sanityFetch } from "@/lib/sanity.client";
+import { getHeroes } from "@/lib/data";
 import RefLink from "../shared/RefLink";
 
 export default async function Heroes() {
-  const heroes: HeroeType[] = await sanityFetch({
-    query: heroesQuery,
-    tags: ["heroe"],
-  });
+  const heroes: HeroeType[] = getHeroes();
 
   return (
     <section className="mt-32 max-w-5xl">

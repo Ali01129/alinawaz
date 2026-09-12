@@ -10,7 +10,8 @@ import {
   HiOutlineX,
   HiUser,
 } from "react-icons/hi";
-import Logo from "../../../public/logo2.png";
+import LogoLight from "../../../public/assets/ali.png";
+import LogoDark from "../../../public/assets/ali-white.png";
 
 export default function MobileMenu() {
   const [navShow, setNavShow] = useState(false);
@@ -59,7 +60,20 @@ export default function MobileMenu() {
       >
         <div className="flex items-center justify-between mt-6 px-8">
           <Link href="/" onClick={onToggleNav}>
-            <Image src={Logo} width={35} height={35} alt="logo" />
+            <Image
+              src={LogoLight}
+              width={35}
+              height={35}
+              alt="logo"
+              className="dark:hidden"
+            />
+            <Image
+              src={LogoDark}
+              width={35}
+              height={35}
+              alt="logo"
+              className="hidden dark:block"
+            />
           </Link>
 
           <button
@@ -73,20 +87,27 @@ export default function MobileMenu() {
           </button>
         </div>
         <nav className="flex flex-col mt-6">
-          {data.map((link) => (
-            <Link
-              key={link.title}
-              href={link.href}
-              className="flex items-center gap-x-2 font-incognito font-semibold text-lg dark:shadow-line-dark shadow-line-light p-6 group"
-              onClick={onToggleNav}
-            >
-              <link.icon
-                className="text-zinc-500 group-hover:dark:text-white group-hover:text-zinc-800 duration-300"
-                aria-hidden="true"
-              />
-              {link.title}
-            </Link>
-          ))}
+          {data.map((link) => {
+            const isExternal = link.href.startsWith("http");
+            return (
+              <Link
+                key={link.title}
+                href={link.href}
+                {...(isExternal && {
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                })}
+                className="flex items-center gap-x-2 font-incognito font-semibold text-lg dark:shadow-line-dark shadow-line-light p-6 group"
+                onClick={onToggleNav}
+              >
+                <link.icon
+                  className="text-zinc-500 group-hover:dark:text-white group-hover:text-zinc-800 duration-300"
+                  aria-hidden="true"
+                />
+                {link.title}
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </>
