@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/logo2.png";
+import LogoLight from "@/public/assets/ali.png";
+import LogoDark from "@/public/assets/ali-white.png";
 import Theme from "./Theme";
 import MobileMenu from "./MobileMenu";
 
@@ -24,7 +25,20 @@ export default function Navbar() {
     <header className="text-sm py-6 md:px-16 px-6 border-b dark:border-zinc-800 border-zinc-200 z-30 md:mb-28 mb-10">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         <Link href="/">
-          <Image src={Logo} width={35} height={35} alt="logo" />
+          <Image
+            src={LogoLight}
+            width={55}
+            height={55}
+            alt="logo"
+            className="dark:hidden"
+          />
+          <Image
+            src={LogoDark}
+            width={55}
+            height={55}
+            alt="logo"
+            className="hidden dark:block"
+          />
         </Link>
 
         <nav className="md:block hidden">

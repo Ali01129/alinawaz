@@ -10,7 +10,8 @@ import {
   HiOutlineX,
   HiUser,
 } from "react-icons/hi";
-import Logo from "../../../public/logo2.png";
+import LogoLight from "../../../public/assets/ali.png";
+import LogoDark from "../../../public/assets/ali-white.png";
 
 export default function MobileMenu() {
   const [navShow, setNavShow] = useState(false);
@@ -59,7 +60,20 @@ export default function MobileMenu() {
       >
         <div className="flex items-center justify-between mt-6 px-8">
           <Link href="/" onClick={onToggleNav}>
-            <Image src={Logo} width={35} height={35} alt="logo" />
+            <Image
+              src={LogoLight}
+              width={35}
+              height={35}
+              alt="logo"
+              className="dark:hidden"
+            />
+            <Image
+              src={LogoDark}
+              width={35}
+              height={35}
+              alt="logo"
+              className="hidden dark:block"
+            />
           </Link>
 
           <button
