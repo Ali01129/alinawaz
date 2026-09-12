@@ -1,37 +1,37 @@
-import Refractor from "react-refractor";
-import js from "refractor/lang/javascript";
-import ts from "refractor/lang/typescript";
-import tsx from "refractor/lang/tsx";
-import jsx from "refractor/lang/jsx";
-import sql from "refractor/lang/sql";
-import bash from "refractor/lang/bash";
-import markdown from "refractor/lang/markdown";
-import css from "refractor/lang/css";
-import scss from "refractor/lang/scss";
-import python from "refractor/lang/python";
-import html from "refractor/lang/markup";
-import yaml from "refractor/lang/yaml";
-import graphql from "refractor/lang/graphql";
-import json from "refractor/lang/json";
-import java from "refractor/lang/java";
+import { Refractor, registerLanguage } from "react-refractor";
+import js from "refractor/javascript";
+import ts from "refractor/typescript";
+import tsx from "refractor/tsx";
+import jsx from "refractor/jsx";
+import sql from "refractor/sql";
+import bash from "refractor/bash";
+import markdown from "refractor/markdown";
+import css from "refractor/css";
+import scss from "refractor/scss";
+import python from "refractor/python";
+import html from "refractor/markup";
+import yaml from "refractor/yaml";
+import graphql from "refractor/graphql";
+import json from "refractor/json";
+import java from "refractor/java";
 import Clipoboard from "./Clipoboard";
 
 // Supported languages: https://prismjs.com/#supported-languages
-Refractor.registerLanguage(js);
-Refractor.registerLanguage(ts);
-Refractor.registerLanguage(jsx);
-Refractor.registerLanguage(tsx);
-Refractor.registerLanguage(sql);
-Refractor.registerLanguage(bash);
-Refractor.registerLanguage(markdown);
-Refractor.registerLanguage(css);
-Refractor.registerLanguage(scss);
-Refractor.registerLanguage(python);
-Refractor.registerLanguage(html);
-Refractor.registerLanguage(yaml);
-Refractor.registerLanguage(graphql);
-Refractor.registerLanguage(json);
-Refractor.registerLanguage(java);
+registerLanguage(js);
+registerLanguage(ts);
+registerLanguage(jsx);
+registerLanguage(tsx);
+registerLanguage(sql);
+registerLanguage(bash);
+registerLanguage(markdown);
+registerLanguage(css);
+registerLanguage(scss);
+registerLanguage(python);
+registerLanguage(html);
+registerLanguage(yaml);
+registerLanguage(graphql);
+registerLanguage(json);
+registerLanguage(java);
 
 type codeTypes = {
   value: {

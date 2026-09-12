@@ -1,5 +1,8 @@
-import { TableRow } from "@sanity/table";
-import { PortableTextBlock } from "sanity";
+import type { PortableTextBlock } from "@portabletext/types";
+
+export interface TableRow {
+  cells?: string[];
+}
 
 export interface Table {
   rows?: TableRow[];
@@ -24,14 +27,14 @@ export type ProfileType = {
   profileImage: {
     image: string;
     lqip: string;
-    alt: string;
+    alt: string | null;
   };
   shortBio: string;
   email: string;
   fullBio: PortableTextBlock[];
   location: string;
   resumeURL: string;
-  og: string;
+  og?: string;
   usage: PortableTextBlock[];
 };
 

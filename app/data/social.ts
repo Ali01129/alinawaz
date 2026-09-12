@@ -13,7 +13,7 @@ import {
 } from "react-icons/bi";
 import { FaFreeCodeCamp, FaProductHunt } from "react-icons/fa";
 import { SiCodewars } from "react-icons/si";
-import { FaHashnode, FaHashtag, FaSquareXTwitter } from "react-icons/fa6";
+import { FaHashnode, FaSquareXTwitter } from "react-icons/fa6";
 
 export const socialLinks = [
   {
@@ -84,13 +84,6 @@ export const socialLinks = [
     name: "Hashnode",
     url: "https://eke.hashnode.dev",
     icon: FaHashnode,
-    status: "publication",
-  },
-  {
-    id: 11,
-    name: "Sanity",
-    url: "https://www.sanity.io",
-    icon: FaHashtag,
     status: "publication",
   },
   {

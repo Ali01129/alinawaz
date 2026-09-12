@@ -1,6 +1,6 @@
 "use client";
 import { useTheme } from "next-themes";
-import GitHubCalendar from "react-github-calendar";
+import { GitHubCalendar } from "react-github-calendar";
 import { espionage, github } from "@/app/data/contribution-graph-theme";
 import { useState, useEffect } from "react";
 import YearButton from "../shared/YearButton";

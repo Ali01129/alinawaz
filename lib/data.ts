@@ -9,7 +9,7 @@ type SiteData = {
   heroes: HeroeType[];
 };
 
-const data = siteData as SiteData;
+const data = siteData as unknown as SiteData;
 
 export function getProfile(): ProfileType[] {
   return data.profile;

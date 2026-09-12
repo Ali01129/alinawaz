@@ -55,7 +55,7 @@ export default async function About() {
                       width={400}
                       height={400}
                       quality={100}
-                      alt={data.profileImage.alt}
+                      alt={data.profileImage.alt || data.fullName}
                       placeholder="blur"
                       blurDataURL={data.profileImage.lqip}
                       priority

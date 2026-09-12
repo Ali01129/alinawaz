@@ -238,36 +238,6 @@
           "_type": "block",
           "children": [
             {
-              "_key": "309b02b482080",
-              "_type": "span",
-              "marks": [
-                "db2bb2cc9991"
-              ],
-              "text": "Sanity"
-            },
-            {
-              "_key": "309b02b482081",
-              "_type": "span",
-              "marks": [],
-              "text": " - Headless CMS"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "db2bb2cc9991",
-              "_type": "link",
-              "href": "https://www.sanity.io/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "cde5ea986384",
-          "_type": "block",
-          "children": [
-            {
               "_key": "b5483d7937c80",
               "_type": "span",
               "marks": [
