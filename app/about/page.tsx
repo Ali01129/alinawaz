@@ -1,13 +1,12 @@
 import Image from "next/image";
 import { Metadata } from "next";
-import { profileQuery } from "@/lib/sanity.query";
 import type { ProfileType } from "@/types";
 import { PortableText } from "@portabletext/react";
 import { BiEnvelope, BiLinkExternal, BiSolidDownload } from "react-icons/bi";
 import { CustomPortableText } from "../components/shared/CustomPortableText";
 import Usage from "../components/pages/Usage";
 import { Slide } from "../animation/Slide";
-import { sanityFetch } from "@/lib/sanity.client";
+import { getProfile } from "@/lib/data";
 import RefLink from "../components/shared/RefLink";
 
 export const metadata: Metadata = {
@@ -23,10 +22,7 @@ export const metadata: Metadata = {
 };
 
 export default async function About() {
-  const profile: ProfileType[] = await sanityFetch({
-    query: profileQuery,
-    tags: ["profile"],
-  });
+  const profile: ProfileType[] = getProfile();
 
   return (
     <main className="relative lg:max-w-7xl mx-auto max-w-3xl md:px-16 px-6">

@@ -2,20 +2,17 @@ import Image from "next/legacy/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import type { PostType } from "@/types";
-import { singlePostQuery } from "@/lib/sanity.query";
 import { PortableText, toPlainText } from "@portabletext/react";
 import { CustomPortableText } from "../../components/shared/CustomPortableText";
-import { BiChevronRight, BiSolidTime, BiTime } from "react-icons/bi";
+import { BiChevronRight, BiSolidTime } from "react-icons/bi";
 import { formatDate } from "../../utils/date";
 import SharePost from "../../components/shared/SharePost";
 import FeaturedPosts from "../../components/pages/FeaturedPosts";
 import { Slide } from "../../animation/Slide";
-import { urlFor } from "@/lib/sanity.image";
 import Buymeacoffee from "@/app/components/shared/Buymeacoffee";
 import Comments from "@/app/components/shared/Comments";
 import { HiCalendar, HiChat } from "react-icons/hi";
-import { sanityFetch } from "@/lib/sanity.client";
+import { getPostBySlug } from "@/lib/data";
 import { readTime } from "@/app/utils/readTime";
 import PageHeading from "@/app/components/shared/PageHeading";
 
@@ -31,11 +28,7 @@ const fallbackImage: string =
 // Dynamic metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const slug = params.post;
-  const post: PostType = await sanityFetch({
-    query: singlePostQuery,
-    tags: ["Post"],
-    qParams: { slug },
-  });
+  const post = getPostBySlug(slug);
 
   if (!post) {
     notFound();
@@ -52,9 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         post.canonicalLink || `https://victoreke.com/blog/${post.slug}`,
     },
     openGraph: {
-      images:
-        urlFor(post.coverImage?.image).width(1200).height(630).url() ||
-        fallbackImage,
+      images: post.coverImage?.image || fallbackImage,
       url: `https://victoreke.com/blog/${post.slug}`,
       title: post.title,
       description: post.description,
@@ -68,9 +59,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       title: post.title,
       description: post.description,
-      images:
-        urlFor(post.coverImage?.image).width(680).height(340).url() ||
-        fallbackImage,
+      images: post.coverImage?.image || fallbackImage,
       creator: `@${post.author.twitterUrl.split("twitter.com/")[1]}`,
       site: `@${post.author.twitterUrl.split("twitter.com/")[1]}`,
       card: "summary_large_image",
@@ -80,17 +69,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Post({ params }: Props) {
   const slug = params.post;
-  const post: PostType = await sanityFetch({
-    query: singlePostQuery,
-    tags: ["Post"],
-    qParams: { slug },
-  });
-
-  const words = toPlainText(post.body);
+  const post = getPostBySlug(slug);
 
   if (!post) {
     notFound();
   }
+
+  const words = toPlainText(post.body);
 
   return (
     <main className="max-w-7xl mx-auto md:px-16 px-6">
@@ -162,10 +147,7 @@ export default async function Post({ params }: Props) {
               <address className="flex items-center gap-x-3 mt-4 not-italic">
                 <div className="relative w-12 h-12">
                   <Image
-                    src={urlFor(post.author.photo.image)
-                      .width(80)
-                      .height(80)
-                      .url()}
+                    src={post.author.photo.image}
                     alt={post.author.photo.alt}
                     layout="fill"
                     className="dark:bg-zinc-800 bg-zinc-300 rounded-full object-cover"

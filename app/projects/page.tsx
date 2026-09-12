@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
-import { projectsQuery } from "@/lib/sanity.query";
 import type { ProjectType } from "@/types";
 import EmptyState from "../components/shared/EmptyState";
 import { Slide } from "../animation/Slide";
-import { sanityFetch } from "@/lib/sanity.client";
+import { getProjects } from "@/lib/data";
 import PageHeading from "../components/shared/PageHeading";
 
 export const metadata: Metadata = {
@@ -16,10 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default async function Project() {
-  const projects: ProjectType[] = await sanityFetch({
-    query: projectsQuery,
-    tags: ["project"],
-  });
+  const projects: ProjectType[] = getProjects();
 
   return (
     <main className="max-w-7xl mx-auto md:px-16 px-6">

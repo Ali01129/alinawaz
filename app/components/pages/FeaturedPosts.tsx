@@ -1,14 +1,10 @@
 import Link from "next/link";
 import Image from "next/legacy/image";
-import { postsQuery } from "@/lib/sanity.query";
 import type { PostType } from "@/types";
-import { sanityFetch } from "@/lib/sanity.client";
+import { getPosts } from "@/lib/data";
 
 export default async function FeaturedPosts({ params }: { params?: string }) {
-  const featuredPosts: PostType[] = await sanityFetch({
-    query: postsQuery,
-    tags: ["Post"],
-  });
+  const featuredPosts: PostType[] = getPosts();
 
   return (
     <>

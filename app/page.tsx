@@ -1,17 +1,13 @@
-import { profileQuery } from "@/lib/sanity.query";
 import type { ProfileType } from "@/types";
 import HeroSvg from "./assets/icons/HeroSvg";
 import Job from "./components/pages/Job";
 import Social from "./components/shared/Social";
 import { Slide } from "./animation/Slide";
-import { sanityFetch } from "@/lib/sanity.client";
+import { getProfile } from "@/lib/data";
 import ContributionGraph from "./components/pages/GithubCalendarComponent";
 
 export default async function Home() {
-  const profile: ProfileType[] = await sanityFetch({
-    query: profileQuery,
-    tags: ["profile"],
-  });
+  const profile: ProfileType[] = getProfile();
 
   return (
     <main className="max-w-7xl mx-auto md:px-16 px-6 lg:mt-32 mt-20">

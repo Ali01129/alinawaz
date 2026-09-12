@@ -1,16 +1,12 @@
 import Image from "next/image";
-import { jobQuery } from "@/lib/sanity.query";
 import type { JobType } from "@/types";
 import { formatDate } from "../../utils/date";
 import { Slide } from "../../animation/Slide";
-import { sanityFetch } from "@/lib/sanity.client";
+import { getJobs } from "@/lib/data";
 import RefLink from "../shared/RefLink";
 
 export default async function Job() {
-  const job: JobType[] = await sanityFetch({
-    query: jobQuery,
-    tags: ["job"],
-  });
+  const job: JobType[] = getJobs();
 
   return (
     <section className="mt-32">
