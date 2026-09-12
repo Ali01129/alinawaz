@@ -50,7 +50,7 @@ export default async function About() {
                 <Slide delay={0.1}>
                   <div className="sticky top-10">
                     <Image
-                      className="rounded-2xl mb-4 object-cover max-h-96 min-h-96 bg-top"
+                      className="rounded-2xl mb-4 object-cover max-h-96 min-h-96 w-auto bg-top"
                       src={data.profileImage.image}
                       width={400}
                       height={400}

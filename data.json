@@ -12,7 +12,7 @@
               "_key": "56e2e69ce38b0",
               "_type": "span",
               "marks": [],
-              "text": "I am Ali Nawaz, currently in my 7th semester of Computer Science at FAST NUCES, Lahore. I am a versatile mobile developer with expertise in React Native and Flutter. My technical skills extend to JavaScript, Node.js, C++/C, Express.js, HTML, and CSS. I am proficient with development tools like VS Code, Android Studio, and Xcode, and I work across multiple operating systems, including Windows, Linux, and macOS."
+              "text": "I am Ali Nawaz, Software Engineer specializing in full-stack and backend development with NestJS, TypeScript, React, Django, and PostgreSQL. Experienced in microservices, REST APIs, cloud infrastructure, Docker, Kubernetes, and AWS, with additional hands-on experience in AI/ML and computer vision. Focused on building scalable, reliable, and user-focused software solutions."
             }
           ],
           "markDefs": [],
@@ -20,7 +20,7 @@
         }
       ],
       "fullName": "Ali Nawaz",
-      "headline": "I am a mobile developer specializing in creating user-friendly applications.",
+      "headline": "From backend architecture to AI powered experiences, I build software that solves real problems.",
       "location": "Lahore Pakistan",
       "profileImage": {
         "alt": null,
@@ -28,7 +28,7 @@
         "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAbABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAYHBQID/8QAJBAAAgIBAwQCAwAAAAAAAAAAAQMCBAAFERITITFBBiIHUYH/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/xAAfEQACAgIBBQAAAAAAAAAAAAAAAQIREiEyAxQxQaH/2gAMAwEAAhEDEQA/AH78jdCzoqQ2UZQg4GQB77YiP1laVwbxiB3ilZPaO3s5k/IGX0UE2bbi2E1iW8fAOL9uQv1lGEzCcRyER7yJy5VoKU6dezfsay+bOTLkhI+oS2A/mGKERzG/ScT4P194ZvJF2VC30zpba9lXJQWfqR+hk3062zQ97FuEG1GbkEjcg7+BlDbORS2JJIMSCM6vUatj4gwOQuYCeQ7e9vOByg4PwxZQt2eWl36tunB9anTZCfflvt3wyMQsvSOCnMhAHsIyIGGD2/XWlP4YzZ//2Q=="
       },
       "resumeURL": "https://cdn.sanity.io/files/hjgjohsz/production/8c4d30891d20f5de8531d2955e75f868aff85f0a.pdf",
-      "shortBio": "I am Ali Nawaz, a 7th-semester Computer Science student at FAST NUCES, Lahore, and a mobile developer proficient in React Native and Flutter.",
+      "shortBio": "I’m Ali Nawaz, a Software Engineer who loves building things and solving problems. I’m always curious to learn, experiment, and find better ways to create.",
       "socialLinks": null,
       "usage": [
         {
@@ -42,13 +42,6 @@
                 "057ec326b3cf"
               ],
               "text": "Technologies"
-            }
-          ],
-          "markDefs": [
-            {
-              "_key": "057ec326b3cf",
-              "_type": "link",
-              "href": "https://victoreke.com/about#technologies"
             }
           ],
           "style": "h3"
@@ -79,66 +72,6 @@
               "_key": "39282c00e685",
               "_type": "link",
               "href": "https://reactjs.org/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "945dd805b306",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "257a56ef984b",
-              "_type": "span",
-              "marks": [
-                "a8ddaa8591da"
-              ],
-              "text": "Flutter"
-            },
-            {
-              "_key": "a47146685526",
-              "_type": "span",
-              "marks": [],
-              "text": " - UI toolkit for building natively compiled applications"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "a8ddaa8591da",
-              "_type": "link",
-              "href": "https://redux.js.org/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "9b97d29249a3",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "ebb7359a1d87",
-              "_type": "span",
-              "marks": [
-                "c0785a15a8ac"
-              ],
-              "text": "Dart"
-            },
-            {
-              "_key": "fab740459ac1",
-              "_type": "span",
-              "marks": [],
-              "text": " - Programming Language"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "c0785a15a8ac",
-              "_type": "link",
-              "href": "https://redux.js.org/?ref=victoreke.com"
             }
           ],
           "style": "normal"
@@ -199,36 +132,6 @@
               "_key": "1ce22229b34e",
               "_type": "link",
               "href": "https://nextjs.org/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "8f7b06be7ade",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "6200f4d39a140",
-              "_type": "span",
-              "marks": [
-                "1db0fc7e6725"
-              ],
-              "text": "Redux"
-            },
-            {
-              "_key": "6200f4d39a141",
-              "_type": "span",
-              "marks": [],
-              "text": " - Production-grade State Management"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "1db0fc7e6725",
-              "_type": "link",
-              "href": "https://redux.js.org/?ref=victoreke.com"
             }
           ],
           "style": "normal"
@@ -354,36 +257,6 @@
           "style": "normal"
         },
         {
-          "_key": "ea8ee36ddf10",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "061f93b7e15f",
-              "_type": "span",
-              "marks": [
-                "fe31c00e592a"
-              ],
-              "text": "C++"
-            },
-            {
-              "_key": "9795dc0fd434",
-              "_type": "span",
-              "marks": [],
-              "text": " - Programming Language"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "fe31c00e592a",
-              "_type": "link",
-              "href": "https://redux.js.org/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
           "_key": "5b5e3cc91661",
           "_type": "block",
           "children": [
@@ -394,13 +267,6 @@
                 "0a5a6ebfb4d8"
               ],
               "text": "Tools"
-            }
-          ],
-          "markDefs": [
-            {
-              "_key": "0a5a6ebfb4d8",
-              "_type": "link",
-              "href": "https://victoreke.com/about#tools"
             }
           ],
           "style": "h3"
@@ -436,126 +302,6 @@
           "style": "normal"
         },
         {
-          "_key": "8729f759cb67",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "36df1c3233f5",
-              "_type": "span",
-              "marks": [
-                "a32557fca5f7"
-              ],
-              "text": "Android Studio"
-            },
-            {
-              "_key": "d3414b7366f9",
-              "_type": "span",
-              "marks": [],
-              "text": " - IDE for creating and testing Application"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "a32557fca5f7",
-              "_type": "link",
-              "href": "https://code.visualstudio.com/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "011f975f789e",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "a1db30fbf3de0",
-              "_type": "span",
-              "marks": [
-                "795f1ab8961c"
-              ],
-              "text": "PyCharm"
-            },
-            {
-              "_key": "a1db30fbf3de1",
-              "_type": "span",
-              "marks": [],
-              "text": ": Python IDE"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "795f1ab8961c",
-              "_type": "link",
-              "href": "https://www.jetbrains.com/pycharm/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "d3e9c485bbc2",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "2e988c2026e70",
-              "_type": "span",
-              "marks": [
-                "b02e8c113b53"
-              ],
-              "text": "Firefox"
-            },
-            {
-              "_key": "2e988c2026e71",
-              "_type": "span",
-              "marks": [],
-              "text": " - Web Browser"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "b02e8c113b53",
-              "_type": "link",
-              "href": "https://www.mozilla.org/en-US/firefox/new/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "1de6ef3e0e26",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "a65cd9a7fa050",
-              "_type": "span",
-              "marks": [
-                "4244f5a189aa"
-              ],
-              "text": "Google Chrome"
-            },
-            {
-              "_key": "a65cd9a7fa051",
-              "_type": "span",
-              "marks": [],
-              "text": ": Web Browser"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "4244f5a189aa",
-              "_type": "link",
-              "href": "https://www.google.com/chrome/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
           "_key": "8ef40f9d3616",
           "_type": "block",
           "children": [
@@ -584,252 +330,6 @@
             }
           ],
           "style": "normal"
-        },
-        {
-          "_key": "201a27dfa577",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "c4417e45d8030",
-              "_type": "span",
-              "marks": [
-                "920eb1e4901b"
-              ],
-              "text": "Git Bash"
-            },
-            {
-              "_key": "c4417e45d8031",
-              "_type": "span",
-              "marks": [],
-              "text": " - Git Terminal"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "920eb1e4901b",
-              "_type": "link",
-              "href": "https://git-scm.com/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "f75f595f45cf",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "243128256e5a0",
-              "_type": "span",
-              "marks": [
-                "f61f9bcb77fd"
-              ],
-              "text": "Platform"
-            }
-          ],
-          "markDefs": [
-            {
-              "_key": "f61f9bcb77fd",
-              "_type": "link",
-              "href": "https://victoreke.com/about#platform"
-            }
-          ],
-          "style": "h3"
-        },
-        {
-          "_key": "472d129e63bd",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "7a5b073e111b0",
-              "_type": "span",
-              "marks": [
-                "da1b8caa2ed2"
-              ],
-              "text": "GitHub"
-            },
-            {
-              "_key": "7a5b073e111b1",
-              "_type": "span",
-              "marks": [],
-              "text": " - Version control/hosting service"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "da1b8caa2ed2",
-              "_type": "link",
-              "href": "https://github.com/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "18f18376cccf",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "0004dbbfddb70",
-              "_type": "span",
-              "marks": [
-                "8b1de859fab4"
-              ],
-              "text": "Spotify"
-            },
-            {
-              "_key": "0004dbbfddb71",
-              "_type": "span",
-              "marks": [],
-              "text": " - Music Streaming"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "8b1de859fab4",
-              "_type": "link",
-              "href": "https://www.spotify.com/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "1b94d534589c",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "c3b3f12d44490",
-              "_type": "span",
-              "marks": [
-                "db26819902fb"
-              ],
-              "text": "GitLab"
-            },
-            {
-              "_key": "c3b3f12d44491",
-              "_type": "span",
-              "marks": [],
-              "text": " - Version control/hosting service"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "db26819902fb",
-              "_type": "link",
-              "href": "https://gitlab.com/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "76963508d85b",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "e11f11f8f8500",
-              "_type": "span",
-              "marks": [
-                "d7d20ac42218"
-              ],
-              "text": "Steam"
-            },
-            {
-              "_key": "e11f11f8f8501",
-              "_type": "span",
-              "marks": [],
-              "text": " - Gaming"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "d7d20ac42218",
-              "_type": "link",
-              "href": "https://steamcommunity.com/id/victoreke?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "35dffbd6ac74",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "23353c9cad490",
-              "_type": "span",
-              "marks": [
-                "6baa5694ab0a"
-              ],
-              "text": "Vercel"
-            },
-            {
-              "_key": "23353c9cad491",
-              "_type": "span",
-              "marks": [],
-              "text": ": Hosting and Database"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "6baa5694ab0a",
-              "_type": "link",
-              "href": "https://vercel.com/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "0d6b389954ed",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "ab013d79dbcb0",
-              "_type": "span",
-              "marks": [
-                "92f387c3d955"
-              ],
-              "text": "Netlify"
-            },
-            {
-              "_key": "ab013d79dbcb1",
-              "_type": "span",
-              "marks": [],
-              "text": ": Static JamStack hosting"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "92f387c3d955",
-              "_type": "link",
-              "href": "https://netlify.com/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "0f7b2013489d",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "948bee6c398b0",
-              "_type": "span",
-              "marks": [],
-              "text": "\n"
-            }
-          ],
-          "markDefs": [],
-          "style": "h3"
         }
       ]
     }

@@ -1,38 +1,24 @@
-// "use client";
-import Link from "next/link";
-
 type props = {
   text: React.ReactNode;
-  event?: any;
+  event?: () => void;
 };
 
-// export const scrollTop = (header: HTMLHeadingElement) => {
-//   header.scrollIntoView({ behavior: "smooth" });
-// };
-
-export const slugify = (id: any) => {
-  if (id) {
-    id.toString()
-      .toLowerCase()
-      .replaceAll(/[^-\w]+/g, "-")
-      .replaceAll(/--+/g, "-")
-      .replace(/^-|-$/g, "");
-  }
-  return "";
+export const slugify = (id: unknown) => {
+  if (!id) return "";
+  return id
+    .toString()
+    .toLowerCase()
+    .replaceAll(/[^-\w]+/g, "-")
+    .replaceAll(/--+/g, "-")
+    .replace(/^-|-$/g, "");
 };
 
+// Render heading text without wrapping in <a>, so PortableText link marks
+// inside headings do not create nested anchors.
 export default function HashScroll({ text, event }: props) {
   return (
-    <Link
-      onClick={event}
-      href={`#${text
-        ?.toString()
-        .toLowerCase()
-        .replaceAll(/[^-\w]+/g, "-")
-        .replaceAll(/--+/g, "-")
-        .replace(/^-|-$/g, "")}`}
-    >
+    <span onClick={event} className="cursor-pointer">
       {text}
-    </Link>
+    </span>
   );
 }

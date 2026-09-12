@@ -87,20 +87,27 @@ export default function MobileMenu() {
           </button>
         </div>
         <nav className="flex flex-col mt-6">
-          {data.map((link) => (
-            <Link
-              key={link.title}
-              href={link.href}
-              className="flex items-center gap-x-2 font-incognito font-semibold text-lg dark:shadow-line-dark shadow-line-light p-6 group"
-              onClick={onToggleNav}
-            >
-              <link.icon
-                className="text-zinc-500 group-hover:dark:text-white group-hover:text-zinc-800 duration-300"
-                aria-hidden="true"
-              />
-              {link.title}
-            </Link>
-          ))}
+          {data.map((link) => {
+            const isExternal = link.href.startsWith("http");
+            return (
+              <Link
+                key={link.title}
+                href={link.href}
+                {...(isExternal && {
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                })}
+                className="flex items-center gap-x-2 font-incognito font-semibold text-lg dark:shadow-line-dark shadow-line-light p-6 group"
+                onClick={onToggleNav}
+              >
+                <link.icon
+                  className="text-zinc-500 group-hover:dark:text-white group-hover:text-zinc-800 duration-300"
+                  aria-hidden="true"
+                />
+                {link.title}
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </>

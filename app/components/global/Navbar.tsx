@@ -43,16 +43,23 @@ export default function Navbar() {
 
         <nav className="md:block hidden">
           <ul className="flex items-center gap-x-8">
-            {data.map((link, id) => (
-              <li key={id}>
-                <Link
-                  href={link.href}
-                  className="font-incognito dark:text-white text-zinc-600 dark:hover:text-primary-color hover:text-zinc-900 duration-300 text-base"
-                >
-                  {link.title}
-                </Link>
-              </li>
-            ))}
+            {data.map((link, id) => {
+              const isExternal = link.href.startsWith("http");
+              return (
+                <li key={id}>
+                  <Link
+                    href={link.href}
+                    {...(isExternal && {
+                      target: "_blank",
+                      rel: "noopener noreferrer",
+                    })}
+                    className="font-incognito dark:text-white text-zinc-600 dark:hover:text-primary-color hover:text-zinc-900 duration-300 text-base"
+                  >
+                    {link.title}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
 
