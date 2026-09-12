@@ -32,8 +32,8 @@ export default async function Posts() {
                       className="dark:bg-zinc-800 bg-zinc-100 rounded-md object-cover group-hover:scale-125 duration-300"
                       alt={post.coverImage?.alt || post.title}
                       layout="fill"
-                      placeholder={post.coverImage ? "blur" : "empty"}
-                      blurDataURL={post.coverImage?.lqip || ""}
+                      placeholder={post.coverImage?.lqip ? "blur" : "empty"}
+                      blurDataURL={post.coverImage?.lqip || undefined}
                     />
                   </div>
                   <div className="max-w-lg">

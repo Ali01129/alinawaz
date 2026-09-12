@@ -26,8 +26,8 @@ export default async function FeaturedPosts({ params }: { params?: string }) {
                 alt={post.coverImage?.alt || post.title}
                 width={400}
                 height={230}
-                placeholder={post.coverImage ? "blur" : "empty"}
-                blurDataURL={post.coverImage?.lqip || ""}
+                placeholder={post.coverImage?.lqip ? "blur" : "empty"}
+                blurDataURL={post.coverImage?.lqip || undefined}
                 quality={100}
                 loading="lazy"
               />

@@ -1,421 +1,422 @@
 {
   "profile": [
     {
-      "_id": "57d91530-1117-4b30-aa75-68de1f1fd352",
+      "_id": "profile",
+      "fullName": "Ali Nawaz",
+      "headline": "From backend architecture to AI-powered experiences, I build software that solves real problems.",
+      "profileImage": {
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/5cc3b26612297c9d742acc7b6c3a79b1fa76548c-3024x4032.jpg",
+        "lqip": "",
+        "alt": "Ali Nawaz"
+      },
+      "shortBio": "I'm Ali Nawaz, a Software Engineer who loves building things and solving problems. Always curious to learn, experiment, and find better ways to create.",
       "email": "chaudharyalinawazz@gmail.com",
       "fullBio": [
         {
-          "_key": "8ad266194ba2",
+          "_key": "b2",
           "_type": "block",
           "children": [
             {
-              "_key": "56e2e69ce38b0",
+              "_key": "s1",
               "_type": "span",
               "marks": [],
-              "text": "I am Ali Nawaz, Software Engineer specializing in full-stack and backend development with NestJS, TypeScript, React, Django, and PostgreSQL. Experienced in microservices, REST APIs, cloud infrastructure, Docker, Kubernetes, and AWS, with additional hands-on experience in AI/ML and computer vision. Focused on building scalable, reliable, and user-focused software solutions."
+              "text": "I am Ali Nawaz, a Software Engineer specializing in full-stack and backend development with NestJS, TypeScript, React, Django, and PostgreSQL. Experienced in microservices, REST APIs, cloud infrastructure, Docker, Kubernetes, and AWS, with hands-on work in AI/ML and computer vision. Focused on building scalable, reliable, and user-focused software."
             }
           ],
-          "markDefs": [],
-          "style": "normal"
+          "style": "normal",
+          "markDefs": []
         }
       ],
-      "fullName": "Ali Nawaz",
-      "headline": "From backend architecture to AI powered experiences, I build software that solves real problems.",
-      "location": "Lahore Pakistan",
-      "profileImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/5cc3b26612297c9d742acc7b6c3a79b1fa76548c-3024x4032.jpg",
-        "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAbABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAYHBQID/8QAJBAAAgIBAwQCAwAAAAAAAAAAAQMCBAAFERITITFBBiIHUYH/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/xAAfEQACAgIBBQAAAAAAAAAAAAAAAQIREiEyAxQxQaH/2gAMAwEAAhEDEQA/AH78jdCzoqQ2UZQg4GQB77YiP1laVwbxiB3ilZPaO3s5k/IGX0UE2bbi2E1iW8fAOL9uQv1lGEzCcRyER7yJy5VoKU6dezfsay+bOTLkhI+oS2A/mGKERzG/ScT4P194ZvJF2VC30zpba9lXJQWfqR+hk3062zQ97FuEG1GbkEjcg7+BlDbORS2JJIMSCM6vUatj4gwOQuYCeQ7e9vOByg4PwxZQt2eWl36tunB9anTZCfflvt3wyMQsvSOCnMhAHsIyIGGD2/XWlP4YzZ//2Q=="
-      },
+      "location": "Lahore, Pakistan",
       "resumeURL": "https://cdn.sanity.io/files/hjgjohsz/production/8c4d30891d20f5de8531d2955e75f868aff85f0a.pdf",
-      "shortBio": "I’m Ali Nawaz, a Software Engineer who loves building things and solving problems. I’m always curious to learn, experiment, and find better ways to create.",
-      "socialLinks": null,
       "usage": [
         {
-          "_key": "b07dd3c091ac",
+          "_key": "b4",
           "_type": "block",
           "children": [
             {
-              "_key": "f47bf39007170",
+              "_key": "s3",
               "_type": "span",
               "marks": [],
               "text": "Technologies"
             }
           ],
-          "style": "h3"
+          "style": "h3",
+          "markDefs": []
         },
         {
-          "_key": "c8e4a1f2b903",
+          "_key": "b8",
           "_type": "block",
           "children": [
             {
-              "_key": "d1a2b3c4e5f60",
+              "_key": "s6",
               "_type": "span",
               "marks": [
-                "a9b8c7d6e5f4"
+                "l5"
               ],
               "text": "NestJS"
             },
             {
-              "_key": "d1a2b3c4e5f61",
+              "_key": "s7",
               "_type": "span",
               "marks": [],
               "text": " - Node.js Framework"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "a9b8c7d6e5f4",
+              "_key": "l5",
               "_type": "link",
               "href": "https://nestjs.com"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "f26a4f3e5605",
+          "_key": "b12",
           "_type": "block",
           "children": [
             {
-              "_key": "eb2456a930c10",
+              "_key": "s10",
               "_type": "span",
               "marks": [
-                "39282c00e685"
+                "l9"
               ],
               "text": "React Native"
             },
             {
-              "_key": "937ea0ff2a54",
+              "_key": "s11",
               "_type": "span",
               "marks": [],
               "text": " - UI Library"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "39282c00e685",
+              "_key": "l9",
               "_type": "link",
               "href": "https://reactnative.dev"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "62693b33afa8",
+          "_key": "b16",
           "_type": "block",
           "children": [
             {
-              "_key": "793d21e03ebc0",
+              "_key": "s14",
               "_type": "span",
               "marks": [
-                "1ce22229b34e"
+                "l13"
               ],
               "text": "Next.js"
             },
             {
-              "_key": "793d21e03ebc1",
+              "_key": "s15",
               "_type": "span",
               "marks": [],
               "text": " - React Framework"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "1ce22229b34e",
+              "_key": "l13",
               "_type": "link",
               "href": "https://nextjs.org"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "e8dd5c59dab6",
+          "_key": "b20",
           "_type": "block",
           "children": [
             {
-              "_key": "a2554356fe30",
+              "_key": "s18",
               "_type": "span",
               "marks": [
-                "cd7eb619ba06"
+                "l17"
               ],
               "text": "React"
             },
             {
-              "_key": "65b193cf5afc",
+              "_key": "s19",
               "_type": "span",
               "marks": [],
               "text": " - UI Library"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "cd7eb619ba06",
+              "_key": "l17",
               "_type": "link",
               "href": "https://react.dev"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "46a1b050fa55",
+          "_key": "b24",
           "_type": "block",
           "children": [
             {
-              "_key": "b5483d7937c80",
+              "_key": "s22",
               "_type": "span",
               "marks": [
-                "2609e841713a"
+                "l21"
               ],
               "text": "Tailwind CSS"
             },
             {
-              "_key": "b5483d7937c81",
+              "_key": "s23",
               "_type": "span",
               "marks": [],
               "text": " - Styling Library"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "2609e841713a",
+              "_key": "l21",
               "_type": "link",
               "href": "https://tailwindcss.com"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "8b020b31ab5a",
+          "_key": "b28",
           "_type": "block",
           "children": [
             {
-              "_key": "b6592021ecfb0",
+              "_key": "s26",
               "_type": "span",
               "marks": [
-                "b508ef474030"
+                "l25"
               ],
               "text": "TypeScript"
             },
             {
-              "_key": "b6592021ecfb1",
+              "_key": "s27",
               "_type": "span",
               "marks": [],
-              "text": " - Typed Superset of JavaScript"
+              "text": " - Typed JavaScript"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "b508ef474030",
+              "_key": "l25",
               "_type": "link",
               "href": "https://www.typescriptlang.org"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "a2bee4bbffe3",
+          "_key": "b32",
           "_type": "block",
           "children": [
             {
-              "_key": "cf73e030485c0",
+              "_key": "s30",
               "_type": "span",
               "marks": [
-                "fa3aee2d9679"
+                "l29"
               ],
               "text": "Python"
             },
             {
-              "_key": "cf73e030485c1",
+              "_key": "s31",
               "_type": "span",
               "marks": [],
               "text": " - Programming Language"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "fa3aee2d9679",
+              "_key": "l29",
               "_type": "link",
               "href": "https://www.python.org"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "5b5e3cc91661",
+          "_key": "b34",
           "_type": "block",
           "children": [
             {
-              "_key": "e419fd501ed80",
+              "_key": "s33",
               "_type": "span",
               "marks": [],
               "text": "Tools"
             }
           ],
-          "style": "h3"
+          "style": "h3",
+          "markDefs": []
         },
         {
-          "_key": "g1t2h3u4b5c6",
+          "_key": "b38",
           "_type": "block",
           "children": [
             {
-              "_key": "g1t2h3u4b5c60",
+              "_key": "s36",
               "_type": "span",
               "marks": [
-                "g1t2h3u4b5c6l"
+                "l35"
               ],
               "text": "GitHub"
             },
             {
-              "_key": "g1t2h3u4b5c61",
+              "_key": "s37",
               "_type": "span",
               "marks": [],
               "text": " - Version Control"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "g1t2h3u4b5c6l",
+              "_key": "l35",
               "_type": "link",
               "href": "https://github.com"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "7afabf0b1e33",
+          "_key": "b42",
           "_type": "block",
           "children": [
             {
-              "_key": "ea43ad874e7d0",
+              "_key": "s40",
               "_type": "span",
               "marks": [
-                "1eb27fe270f7"
+                "l39"
               ],
               "text": "Visual Studio Code"
             },
             {
-              "_key": "ea43ad874e7d1",
+              "_key": "s41",
               "_type": "span",
               "marks": [],
               "text": " - Text Editor"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "1eb27fe270f7",
+              "_key": "l39",
               "_type": "link",
               "href": "https://code.visualstudio.com"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "a1b2c3d4e5f6",
+          "_key": "b46",
           "_type": "block",
           "children": [
             {
-              "_key": "f6e5d4c3b2a10",
+              "_key": "s44",
               "_type": "span",
               "marks": [
-                "c1u2r3s4o5r6"
+                "l43"
               ],
               "text": "Cursor"
             },
             {
-              "_key": "f6e5d4c3b2a11",
+              "_key": "s45",
               "_type": "span",
               "marks": [],
               "text": " - AI Code Editor"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "c1u2r3s4o5r6",
+              "_key": "l43",
               "_type": "link",
               "href": "https://cursor.com"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "b2c3d4e5f6a7",
+          "_key": "b50",
           "_type": "block",
           "children": [
             {
-              "_key": "a7b6c5d4e3f20",
+              "_key": "s48",
               "_type": "span",
               "marks": [
-                "c1a2u3d4e5c6"
+                "l47"
               ],
               "text": "Claude Code"
             },
             {
-              "_key": "a7b6c5d4e3f21",
+              "_key": "s49",
               "_type": "span",
               "marks": [],
               "text": " - AI Coding Agent"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "c1a2u3d4e5c6",
+              "_key": "l47",
               "_type": "link",
               "href": "https://www.anthropic.com/claude-code"
             }
-          ],
-          "style": "normal"
+          ]
         },
         {
-          "_key": "8ef40f9d3616",
+          "_key": "b54",
           "_type": "block",
           "children": [
             {
-              "_key": "774b3c1431630",
+              "_key": "s52",
               "_type": "span",
               "marks": [
-                "3de6a995f81e"
+                "l51"
               ],
               "text": "Figma"
             },
             {
-              "_key": "774b3c1431631",
+              "_key": "s53",
               "_type": "span",
               "marks": [],
               "text": " - Design Tool"
             }
           ],
+          "style": "normal",
           "level": 1,
           "listItem": "bullet",
           "markDefs": [
             {
-              "_key": "3de6a995f81e",
+              "_key": "l51",
               "_type": "link",
               "href": "https://www.figma.com"
             }
-          ],
-          "style": "normal"
+          ]
         }
       ]
     }
@@ -423,1775 +424,943 @@
   "jobs": [
     {
       "_id": "1",
-      "description": "Building full-stack applications, developing AI/ML solutions, and deploying scalable cloud infrastructure using AWS.",
-      "endDate": null,
+      "name": "Devsinc",
       "jobTitle": "Senior Software Engineer",
       "logo": "/assets/devsinc.png",
-      "name": "Devsinc",
+      "url": "https://devsinc.com/",
+      "description": "Building full-stack applications, developing AI/ML solutions, and deploying scalable cloud infrastructure on AWS.",
       "startDate": "2025-06-10",
-      "url": "https://devsinc.com/"
+      "endDate": null
     },
     {
       "_id": "2",
-      "description": "Developed and maintained full-stack web applications using React, Node.js, and TypeScript, building REST APIs, integrating AWS services, and delivering scalable software solutions.",
-      "endDate": "2025-03-28",
+      "name": "Circuit Stream",
       "jobTitle": "Software Engineer · Contract",
       "logo": "/assets/circuit-stream.png",
-      "name": "Circuit Stream",
+      "url": "https://www.circuitstream.com/",
+      "description": "Built and maintained full-stack web apps with React, Node.js, and TypeScript — REST APIs, third-party integrations, and production deployments.",
       "startDate": "2024-09-01",
-      "url": "https://www.circuitstream.com/"
+      "endDate": "2025-03-28"
     },
     {
       "_id": "3",
-      "description": "Developed and tested mobile applications using React Native and Expo, integrated REST APIs, and collaborated on full-stack features to deliver user-friendly mobile solutions.",
-      "endDate": "2024-10-01",
+      "name": "Qwerty Experts",
       "jobTitle": "Software Engineer · Intern",
       "logo": "https://cdn.sanity.io/images/hjgjohsz/production/4401478ee857a2fc5b27575bd9f2066c9b427213-200x200.jpg",
-      "name": "Qwerty Experts",
+      "url": "https://qwertyexperts.com/",
+      "description": "Developed and tested React Native and Expo apps, integrated REST APIs, and collaborated on full-stack features.",
       "startDate": "2024-07-01",
-      "url": "https://qwertyexperts.com/"
+      "endDate": "2024-10-01"
     }
   ],
   "projects": [
     {
-      "_id": "118309f1-02ba-4410-9607-0973677b1a50",
-      "coverImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/794d2862b110f66fee83bdb19dfc9eaf8c3d4a25-8216x5469.png",
-        "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAACxLAAAsSwGlPZapAAACP0lEQVQ4ja2S30tTYRiAz4/tsCFt2RaRNK1k5bbTBKfldmhSKExczk3oUiFRb+tOg0wpK2tZgdiFZenI6xIiMWdbZd1El6GykYFR9OtfeOqcKKm26KKLh/d734/3+d4PXkEQBP4zwh9FURR/RrPZjNVqNdDPP+7+WShJErIsG+gCm81GWVmZgd1uR1EUo65Hk8lU6IGNxGKx4HK58Hq9VFZW4nA4KC+vIBxuoLGpCY/Hg9PpxO12EwqFqKmpweFw/i7dEOqynt5exsav09d/kkAggHawgYvJUaampuns7MDn89HV1cV06g7J0auEQpoxcUGhqqpM3Jxkbf0d9+fmaWmJEosnmF9Is7yywsDAAPXBIGeGz7GaX2Mx+4y2eML4WUGh3+8nlUrx6fMXMtkssViMRDzOYjpNPp9jaGjQmGj4wiXyb9Z5vPScRHt7caGq7uPG5G3evv/I/MIi0egRWltbeTA3x6vlVU6dHiSoC0eShvDJ0yUSib9MWOVVSY7f4kXuAzOzaRojUSLRGDP3HpJ5meNE/yAHghpnz4+wknvNo0yWtni8uNBVsZue4/2MpWbpG75GQDtE8HCEoSsTjE3f5WhHN1U+lc5j3UxOpUgmL6NpGmZFKSwsKSlhr8dHUAtTXVvPNrcfl1pHuKmZxkgzezxV2Es3U7FzF7V1+/FXVxurVXRtBFE0Ftqko1gwl27HunUHti1ObPZNKBYFSZYQpQ30nl8XW5QpiGRCkBUEk4Igm7/nBvpdkZ5vfV8BBA2SjBn+LdMAAAAASUVORK5CYII="
-      },
-      "description": [
-        {
-          "_key": "63fc8b05b852",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "77c8c52e907c0",
-              "_type": "span",
-              "marks": [],
-              "text": "Carpool is a revolutionary application designed to make commuting easier and more affordable. Built using React Native for the frontend, and powered by a robust backend stack of Node.js, Express.js, MongoDB, and TypeScript, Carpool connects riders and drivers for shared cab rides, reducing travel costs and promoting eco-friendly transportation."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "464911a5693c",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "080359ad13430",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Key Features:"
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "d13295787fd6",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "38237835f4bd0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "🚗 Easy Ride Sharing"
-            },
-            {
-              "_key": "38237835f4bd1",
-              "_type": "span",
-              "marks": [],
-              "text": ": Find and share rides with others heading in the same direction. Carpool makes it simple to connect with fellow commuters, reducing the cost and environmental impact of your travels."
-            }
-          ],
-          "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "08fb49baae1e",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "8ccc80df130e0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "📅 Schedule Rides"
-            },
-            {
-              "_key": "8ccc80df130e1",
-              "_type": "span",
-              "marks": [],
-              "text": ": Plan your rides ahead of time with our scheduling feature. Whether it’s a daily commute or a one-time trip, Carpool allows you to book rides in advance."
-            }
-          ],
-          "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "220658ceeec4",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "f5a8d59596670",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "💬 In-App Communication"
-            },
-            {
-              "_key": "f5a8d59596671",
-              "_type": "span",
-              "marks": [],
-              "text": ": Communicate with your fellow riders and drivers directly within the app using our secure chat feature. Coordination has never been easier."
-            }
-          ],
-          "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "3bc022ad1b94",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "e4172e5bf13a0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "📱 User-Friendly Interface"
-            },
-            {
-              "_key": "e4172e5bf13a1",
-              "_type": "span",
-              "marks": [],
-              "text": ": Developed with React Native, Carpool offers a sleek and intuitive interface, ensuring a seamless user experience across both iOS and Android platforms."
-            }
-          ],
-          "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "26f8b61af05b",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "7e798614838f0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "🔒 Secure and Reliable"
-            },
-            {
-              "_key": "7e798614838f1",
-              "_type": "span",
-              "marks": [],
-              "text": ": Built with Node.js, Express.js, and MongoDB, Carpool ensures data security and reliability, providing users with a safe and trustworthy environment for their ride-sharing needs."
-            }
-          ],
-          "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "a91dbfd33624",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "608b7f72e7990",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "🛠️ TypeScript Integration"
-            },
-            {
-              "_key": "608b7f72e7991",
-              "_type": "span",
-              "marks": [],
-              "text": ": Leveraging TypeScript for the backend, Carpool provides enhanced code quality and maintainability, ensuring a stable and efficient application performance."
-            }
-          ],
-          "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "211845faf0cc",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "1a07afdfcf2e0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "🌍 Eco-Friendly"
-            },
-            {
-              "_key": "1a07afdfcf2e1",
-              "_type": "span",
-              "marks": [],
-              "text": ": By promoting shared rides, Carpool helps reduce the number of vehicles on the road, contributing to lower carbon emissions and a healthier planet."
-            }
-          ],
-          "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "a70574f74a7f",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "4de496d51caa0",
-              "_type": "span",
-              "marks": [],
-              "text": "Join Carpool today and start saving money, making new friends, and reducing your carbon footprint. Together, we can make commuting a better experience for everyone."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        }
-      ],
-      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/c0085088ba4b1bf552f0090943ebd232bcf7bbc7-612x612.jpg",
+      "_id": "carpool",
       "name": "Carpool",
+      "slug": "carpool",
+      "tagline": "Ride sharing made easy",
       "projectUrl": "https://github.com/Ali01129/Carpool",
       "repository": "https://github.com/Ali01129/Carpool",
-      "slug": "carpool",
-      "tagline": "Ride made easy"
-    },
-    {
-      "_id": "92f1e32a-02c0-4acb-b547-5e9c55c079f5",
+      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/c0085088ba4b1bf552f0090943ebd232bcf7bbc7-612x612.jpg",
       "coverImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/2b9c085f3ddfb6dc094fb964b212870862a6e1ae-8216x5469.png",
-        "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAACxLAAAsSwGlPZapAAABrklEQVQ4ja2TS4/TMBSF40cefsZx4qR5TqfAaApCAiGExI4tEiv4D6z5/4uD7FIkaAssWBzJuj7+dK59nWVZhv+s7OYm5xxVVUFKmRTXjLF/BxJC0oEIKooC1lqM44hlWbCua1rHWtzL8zz5CCG3gdEQk2itk5qmSZAI27YN0zSlmlIqKXrzPL8OZIxgChJvjw3ePHr0rU4txkQhhCRr61RTSsL7Bt57SKVAKb0EljnFu+cW374M+Pqpx8OmwTlLKbquS4qp4pUYLXG3BGxzQF1bMMYvgQWneHGo8fnDhI/vd1iGM1Cg9T6liUDKGJyVePmsw/HQwtX694c6t0wRWoenhwV36wRjTsbYojEGxlhUQiRgbSQe9gFPtoDamhtASuEbh21bMU0zlNKppmWBqdeYdwbWnMbGaIV1iY81wzl3vWVKCazRGHcD+hAgpAIvBUKwePXo8fro0LcRSCGEQN8H7IYhpaf0SsLz2ERzVZYJlvsJbrnH/n7EfmtgbQnK6M+rEKJKZ/7yU06DSlgO7gZU3QxVN5BKghcchF4M8q+Kk35TjCfFOYv6o/eHvgOD3h6chtpMXgAAAABJRU5ErkJggg=="
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/794d2862b110f66fee83bdb19dfc9eaf8c3d4a25-8216x5469.png",
+        "alt": "Carpool",
+        "lqip": ""
       },
       "description": [
         {
-          "_key": "5d05d338266f",
+          "_key": "b56",
           "_type": "block",
           "children": [
             {
-              "_key": "a0e3dff5da8e0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "SmartInvest"
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "a21c07eafa2d",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "551c2fedcf420",
+              "_key": "s55",
               "_type": "span",
               "marks": [],
-              "text": "SmartInvest is a cutting-edge financial application built using React Native for the frontend, with a robust backend powered by Node.js, Express.js, MongoDB, and TypeScript. This app provides an innovative way to manage and grow your wealth through its inbuilt currency called SmartCoin."
+              "text": "Carpool connects riders and drivers for shared trips, cutting commute costs and reducing road congestion. Built with React Native on the frontend and Node.js, Express, MongoDB, and TypeScript on the backend."
             }
           ],
-          "markDefs": [],
-          "style": "normal"
+          "style": "normal",
+          "markDefs": []
         },
         {
-          "_key": "fb40f1f78a07",
+          "_key": "b58",
           "_type": "block",
           "children": [
             {
-              "_key": "4fd746f78c750",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Key Features:"
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "dd9d9b896f52",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "178af1c8d31f0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "💸 Seamless Currency Conversion"
-            },
-            {
-              "_key": "178af1c8d31f1",
+              "_key": "s57",
               "_type": "span",
               "marks": [],
-              "text": ": Easily deposit dollars and convert them into SmartCoins within the app. This feature ensures a smooth and hassle-free transaction process."
+              "text": "Features"
             }
           ],
+          "style": "h3",
+          "markDefs": []
+        },
+        {
+          "_key": "b60",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s59",
+              "_type": "span",
+              "marks": [],
+              "text": "Find and share rides with people going the same way"
+            }
+          ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "4a9015d71845",
+          "_key": "b62",
           "_type": "block",
           "children": [
             {
-              "_key": "468dd306b3640",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "📈 Investment Packages"
-            },
-            {
-              "_key": "468dd306b3641",
+              "_key": "s61",
               "_type": "span",
               "marks": [],
-              "text": ": SmartInvest offers a variety of investment packages tailored to meet different financial goals. Users can subscribe to these packages to stake their SmartCoins."
+              "text": "Schedule one-time or recurring trips in advance"
             }
           ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "710495d75fd2",
+          "_key": "b64",
           "_type": "block",
           "children": [
             {
-              "_key": "edacb5de7b020",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "💰 Monthly Profit"
-            },
-            {
-              "_key": "edacb5de7b021",
+              "_key": "s63",
               "_type": "span",
               "marks": [],
-              "text": ": By staking SmartCoins in the selected packages, users can earn a consistent monthly profit, enhancing their wealth growth over time."
+              "text": "In-app chat for coordinating with drivers and riders"
             }
           ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "b3cd5f8d3d28",
+          "_key": "b66",
           "_type": "block",
           "children": [
             {
-              "_key": "8293ef71fd960",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "📱 User-Friendly Interface"
-            },
-            {
-              "_key": "8293ef71fd961",
+              "_key": "s65",
               "_type": "span",
               "marks": [],
-              "text": ": Developed with React Native, SmartInvest boasts a sleek and intuitive interface, ensuring an optimal user experience across both iOS and Android platforms."
+              "text": "Cross-platform UI for iOS and Android"
             }
           ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "783a3a8327a0",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "07920c0354290",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "🔒 Secure and Reliable"
-            },
-            {
-              "_key": "07920c0354291",
-              "_type": "span",
-              "marks": [],
-              "text": ": Built with Node.js, Express.js, and MongoDB, SmartInvest ensures data security and reliability, providing users with a safe environment for their financial activities."
-            }
-          ],
-          "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "05f051dc8c7d",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "f2f3c1d2699b0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "🛠️ TypeScript Integration"
-            },
-            {
-              "_key": "f2f3c1d2699b1",
-              "_type": "span",
-              "marks": [],
-              "text": ": Leveraging TypeScript for the backend, SmartInvest offers enhanced code quality and maintainability, ensuring a stable and efficient application performance."
-            }
-          ],
-          "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "ebf44f2156ee",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "9dafe441940f0",
-              "_type": "span",
-              "marks": [],
-              "text": "With SmartInvest, managing and growing your wealth has never been easier. Transform your financial journey with SmartCoin and start earning monthly profits today!"
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         }
-      ],
-      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/55b004c82102a01940a4141f80623650313c8e00-640x640.webp",
+      ]
+    },
+    {
+      "_id": "smart-invest",
       "name": "Smart Invest",
+      "slug": "smart-invest",
+      "tagline": "Invest and grow with SmartCoin",
       "projectUrl": "https://github.com/Ali01129/smartInvest",
       "repository": "https://github.com/Ali01129/smartInvest",
-      "slug": "smart-invest",
-      "tagline": "smartinvest"
-    },
-    {
-      "_id": "9aa56f1d-54c3-4b57-b69f-7cf7041b9832",
+      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/55b004c82102a01940a4141f80623650313c8e00-640x640.webp",
       "coverImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/c3a52cbc10f152477851d8a31de997f72c4b1714-1280x852.jpg",
-        "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMCBAUG/8QAIhAAAQQCAgIDAQAAAAAAAAAAAQIDBAUAEQYSByETMUJx/8QAFAEBAAAAAAAAAAAAAAAAAAAABf/EABwRAAIDAQADAAAAAAAAAAAAAAECAAMEMSFxof/aAAwDAQACEQMRAD8A4Sq8c317GZnwpjCGJBWUJUsggJ+8fN8XckaYQ4ZccAhs+ln9nQyvB5TfVsVqLAsSywz26JDYOu337xj/ADLkjyUIXanqgIAHxD8nYxqzLqLkqfHuD16soQAj5MixqplDYSK2wcS5Jjr6qUk7B9YZKdKlWUx6ZYPl+U8rstetbP8AMMXpR1rUN2EXOjWEryf/2Q=="
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/2b9c085f3ddfb6dc094fb964b212870862a6e1ae-8216x5469.png",
+        "alt": "Smart Invest",
+        "lqip": ""
       },
       "description": [
         {
-          "_key": "ac0309d50b4d",
+          "_key": "b68",
           "_type": "block",
           "children": [
             {
-              "_key": "0f63e04dd6160",
+              "_key": "s67",
               "_type": "span",
               "marks": [],
-              "text": "📕 TutorZone - Empowering Education 📕\n\nI'm thrilled to present TutorZone, an innovative platform where teachers can share their skills and students can enroll in the classes that interest them the most.\n\nProject Highlights:\n🎉 Designed and developed the front end using React Native, ensuring a smooth and intuitive user experience for both iOS/Android platforms.\n📚 Skill Sharing: Teachers can easily create and manage classes to share their expertise with eager learners.\n👩‍🏫👨‍🎓 Student Enrollment: Students can browse and enroll in a wide range of classes offered by diverse teachers.\n💡 Seamless UI: Utilized the NativeBase component library to create a cohesive and user-friendly interface.\n\nWorking on TutorZone allowed me to explore the intricacies of front-end development and user interface design. This project honed my skills in creating intuitive navigation and engaging layouts, ensuring a seamless experience for both teachers and students.\n\nI'm proud to have contributed to a platform that fosters learning and skill development, making education more accessible and personalized. The collaboration with my team on this project was incredibly rewarding, pushing us to innovate and enhance the user experience continuously.\n\nFeel free to check out some screenshots of TutorZone below! 🌟"
+              "text": "SmartInvest is a React Native finance app with a Node.js, Express, MongoDB, and TypeScript backend. Users deposit funds, convert to SmartCoin, and stake into investment packages for monthly returns."
             }
           ],
-          "markDefs": [],
-          "style": "normal"
+          "style": "normal",
+          "markDefs": []
+        },
+        {
+          "_key": "b70",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s69",
+              "_type": "span",
+              "marks": [],
+              "text": "Features"
+            }
+          ],
+          "style": "h3",
+          "markDefs": []
+        },
+        {
+          "_key": "b72",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s71",
+              "_type": "span",
+              "marks": [],
+              "text": "Deposit and convert currency into SmartCoin"
+            }
+          ],
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
+        },
+        {
+          "_key": "b74",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s73",
+              "_type": "span",
+              "marks": [],
+              "text": "Subscribe to investment packages"
+            }
+          ],
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
+        },
+        {
+          "_key": "b76",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s75",
+              "_type": "span",
+              "marks": [],
+              "text": "Earn monthly profit from staked SmartCoins"
+            }
+          ],
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
+        },
+        {
+          "_key": "b78",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s77",
+              "_type": "span",
+              "marks": [],
+              "text": "Secure authentication and transaction flow"
+            }
+          ],
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         }
-      ],
-      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/14b52facb6e8ac90b81746d3c24145b89c4d9b3c-866x650.webp",
+      ]
+    },
+    {
+      "_id": "tutorzone",
       "name": "TutorZone",
+      "slug": "tutorzone",
+      "tagline": "Education made easy",
       "projectUrl": "https://github.com/Ali01129/tutor_zone",
       "repository": "https://github.com/Ali01129/tutor_zone",
-      "slug": "tutorzone",
-      "tagline": "education made easy"
-    },
-    {
-      "_id": "e9276a6b-370c-49e8-a913-be90ace7279e",
+      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/14b52facb6e8ac90b81746d3c24145b89c4d9b3c-866x650.webp",
       "coverImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/f3c6084e1fa511ab29d23e51065c972dc0951966-887x587.png",
-        "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABJ0AAASdAHeZh94AAACjklEQVQ4jYWTyy9rURSHzx9kQEQQIUYYiJAICfGYlJREJEhEvCKeEwYmBiIxM2gTE//BHV03itJIq7RatPpMn9qec76btdFbyb25O1nZj5P1nd/67bU1wzAoFosUCoVylEolTNNEhsz/isrvX0OT5FAohMfjwe128/j4SDweR9f1/wL/FpoAg8EgV1dXOBwObm9veX5+Jp1Ok8vlVGSz2XLIXiqqVFU5NFESi8V48HrxuD14vV4CgQDBQIC7uzsuLi44/3XO5eWl+qns5VyqSiQSKvft7U1VJXZp4mEmk1GHr6+vKiKRCH6fH7vNzvLyMgsLC+zt7bG/v8/Kygpra2scHx9zdnaGzWbj6OiI09NTXl5e/gAFIlCZU6mU8nJ7e5vm5mYaGxsZGBhgdHSUlpYWmpqaGBsbY2Njg7m5OYaGhlhaWsLlcn0AxZdkMln2rVgq4fP5WF1dpaamhqqqKrq6uujv76ehoYG6ujqGh4dZXFzEarXS09PD7OwsNzc3aO+6STSvk8wXKel62eynpyfW19epra1VQEkSJe3t7bS1tWGxWJQqq9VKd3c3MzMzOJ1OtETBwJXUCWYNdMOUPlFAuZitrS3q6+uprq6mt7dXldzR0aGgUrIoHB8fV+qnp6c/gOn3dx4iYULJz96rUChA8UtK7OvrY2RkhNbWVuWjKBSgxWKhs7OTqakprq+v0fR8nHzoB4WYA1PPffGUQrkUSZZLGRwcVKpEoZQ8OTmpPJ6YmPjuoVlIYsZ/Qsr5DRiNRrHb7czPz6ub3N3d5eDggM3NTeXt4eEhJycn6mxnZ0e1kVSlmUYJU898wowyUF5DOBzm/v5ePUu/369elLSThKylZwUie1nn83l+A3a+RexbMhSUAAAAAElFTkSuQmCC"
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/c3a52cbc10f152477851d8a31de997f72c4b1714-1280x852.jpg",
+        "alt": "TutorZone",
+        "lqip": ""
       },
       "description": [
         {
-          "_key": "e1e43ca47531",
+          "_key": "b80",
           "_type": "block",
           "children": [
             {
-              "_key": "c675a2a5b4dd0",
+              "_key": "s79",
               "_type": "span",
               "marks": [],
-              "text": "Welcome to Social: The Minimalist Social Media App"
+              "text": "TutorZone is a React Native platform where teachers create and manage classes, and students browse and enroll in courses that match their interests. Built with NativeBase for a consistent mobile UI."
             }
           ],
-          "markDefs": [],
-          "style": "h3"
+          "style": "normal",
+          "markDefs": []
         },
         {
-          "_key": "930c15fff5d1",
+          "_key": "b82",
           "_type": "block",
           "children": [
             {
-              "_key": "3442f65c000a0",
+              "_key": "s81",
               "_type": "span",
               "marks": [],
-              "text": "🛡️ Full Authentication"
+              "text": "Highlights"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
+          "style": "h3",
+          "markDefs": []
         },
         {
-          "_key": "fc483a496da7",
+          "_key": "b84",
           "_type": "block",
           "children": [
             {
-              "_key": "5f9d1e56de380",
+              "_key": "s83",
               "_type": "span",
               "marks": [],
-              "text": "Enjoy secure interactions with comprehensive authentication to protect your privacy and data."
+              "text": "Teachers create and manage skill-based classes"
             }
           ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "fd9aaadc181e",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "3fb73c0113660",
-              "_type": "span",
-              "marks": [],
-              "text": "🗣️ Freedom of Speech"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "b24bc46ff094",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "52bbed2931490",
-              "_type": "span",
-              "marks": [],
-              "text": "Express yourself freely in a supportive environment that values your voice."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "d0471bc33840",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "0deac0934da10",
-              "_type": "span",
-              "marks": [],
-              "text": "⏳ Minimal Features"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "acc5f0e7c1e3",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "a0b4839afbac0",
-              "_type": "span",
-              "marks": [],
-              "text": "Designed with minimal features to help you stay connected without the distractions, reducing time wasted on social media."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "d4aa013539ed",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "d3eafde3df0c0",
-              "_type": "span",
-              "marks": [],
-              "text": "🌟 Key Features"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "612f61190ac3",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "6a246351165b0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Secure Authentication"
-            },
-            {
-              "_key": "6a246351165b1",
-              "_type": "span",
-              "marks": [],
-              "text": ": Robust security measures to keep your data safe."
-            }
-          ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "108f862eeabf",
+          "_key": "b86",
           "_type": "block",
           "children": [
             {
-              "_key": "bd59e390d0170",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Freedom of Expression"
-            },
-            {
-              "_key": "bd59e390d0171",
+              "_key": "s85",
               "_type": "span",
               "marks": [],
-              "text": ": A platform that encourages open and honest communication."
+              "text": "Students browse and enroll across subjects"
             }
           ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "f383b02de966",
+          "_key": "b88",
           "_type": "block",
           "children": [
             {
-              "_key": "be05eafdb5b60",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Focused Interaction"
-            },
-            {
-              "_key": "be05eafdb5b61",
+              "_key": "s87",
               "_type": "span",
               "marks": [],
-              "text": ": Minimalist design to help you stay productive and reduce screen time."
+              "text": "Shared React Native experience on iOS and Android"
             }
           ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         }
-      ],
-      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/d708982aac9fc9c00288e314b9d05cc13792adb6-500x500.png",
+      ]
+    },
+    {
+      "_id": "social",
       "name": "Social",
+      "slug": "social",
+      "tagline": "A minimal social media app",
       "projectUrl": "https://github.com/Ali01129/social_app",
       "repository": "https://github.com/Ali01129/social_app",
-      "slug": "social",
-      "tagline": "Minimal social media app"
-    },
-    {
-      "_id": "d7ee9f6d-6866-4456-8901-4a35c0f60825",
+      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/d708982aac9fc9c00288e314b9d05cc13792adb6-500x500.png",
       "coverImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/192568229fa53340956f4aff2dafb2ad451a668f-1896x908.png",
-        "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAAA60lEQVQokX1Ry07DMBDs//8RJyQ4IaECPfRAD0ihwq3TlJrGavxYD1oXR5uQdKRRnM3sZHa9SCmBQUSwbYsfY+CcQ4wxs3yX4BrrvfeZfC71RWngZwihF/B7TyIQm3P9Ku5N6U87afiPAIL3OGoNVVVoz+dBs2RvWA4SUmitxcdmg/XqDU1dD8Yb9zBuJuQdsqFSO2w/tzDG5LWMx0zCPCcskKKy9MPxhNfVO5bPa2h1gOuuFya1EJg1zAmJUDcnPDy+4P7uCarSiCGC0jDhrKE0LsLOeWj9jf1Xg4vt+IInR71pOE4897OphL8hpMRvar/1zgAAAABJRU5ErkJggg=="
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/f3c6084e1fa511ab29d23e51065c972dc0951966-887x587.png",
+        "alt": "Social",
+        "lqip": ""
       },
       "description": [
         {
-          "_key": "0455bd8a0348",
+          "_key": "b90",
           "_type": "block",
           "children": [
             {
-              "_key": "13117eceeedd0",
+              "_key": "s89",
               "_type": "span",
               "marks": [],
-              "text": "Welcome to ShaheerAndCo: Your Trusted Shoe Chemical Importer"
+              "text": "Social is a minimalist social media app focused on authentic connection without the usual noise and distraction."
             }
           ],
-          "markDefs": [],
-          "style": "h3"
+          "style": "normal",
+          "markDefs": []
         },
         {
-          "_key": "0ebe9a8af790",
+          "_key": "b92",
           "_type": "block",
           "children": [
             {
-              "_key": "0b4fe72a26af0",
+              "_key": "s91",
               "_type": "span",
               "marks": [],
-              "text": "🌍 Global Importer of Shoe Chemicals"
+              "text": "Features"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
+          "style": "h3",
+          "markDefs": []
         },
         {
-          "_key": "ec681342de84",
+          "_key": "b94",
           "_type": "block",
           "children": [
             {
-              "_key": "41b9f6cb09130",
+              "_key": "s93",
               "_type": "span",
               "marks": [],
-              "text": "ShaheerAndCo specializes in the import of high-quality shoe chemicals from around the world, ensuring the best products for your manufacturing needs."
+              "text": "Full authentication and private accounts"
             }
           ],
-          "markDefs": [],
-          "style": "normal"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "5c1a4c6afb32",
+          "_key": "b96",
           "_type": "block",
           "children": [
             {
-              "_key": "eae3961e22bc0",
+              "_key": "s95",
               "_type": "span",
               "marks": [],
-              "text": "⚛️ Built with React.js"
+              "text": "Post and engage without cluttered feeds"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "3f447fc94537",
+          "_key": "b98",
           "_type": "block",
           "children": [
             {
-              "_key": "89570e9a11f30",
+              "_key": "s97",
               "_type": "span",
               "marks": [],
-              "text": "Our website is developed using React.js, providing a dynamic and responsive user experience."
+              "text": "Intentional feature set to reduce screen time"
             }
           ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "8527d3613179",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "79eccfecdc4e0",
-              "_type": "span",
-              "marks": [],
-              "text": "💻 Robust Backend"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "3923cc9b48d1",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "c07921f862740",
-              "_type": "span",
-              "marks": [],
-              "text": "Powered by Node.js and Express.js, our backend ensures fast and reliable service for all your needs."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "6a1811aaa8bb",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "348f4041f8d90",
-              "_type": "span",
-              "marks": [],
-              "text": "📧 Unrestricted Email Sending"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "643646eab6f2",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "eb29726098780",
-              "_type": "span",
-              "marks": [],
-              "text": "Enjoy seamless communication with our unrestricted email sending feature, allowing you to connect with us without any limitations."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "17497b75eaa8",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "0404f71c3ccc0",
-              "_type": "span",
-              "marks": [],
-              "text": "🏢 About Us"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "0701ea4d852d",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "ced28f858d410",
-              "_type": "span",
-              "marks": [],
-              "text": "At ShaheerAndCo, we are committed to delivering the finest shoe chemicals to our clients, backed by efficient technology and excellent customer service."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         }
-      ],
-      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/c6f734534e2cca51fd69797936a78ef2e95ce232-139x97.png",
-      "name": "shaheerandco",
+      ]
+    },
+    {
+      "_id": "shaheerandco",
+      "name": "ShaheerAndCo",
+      "slug": "shaheerandco",
+      "tagline": "Professional company website",
       "projectUrl": "https://shaheerandco.com/",
       "repository": "https://github.com/Ali01129/shaheerandco",
-      "slug": "shaheerandco",
-      "tagline": "Professional website"
-    },
-    {
-      "_id": "53404417-0a11-46c4-a3e8-d0419e1b1b84",
+      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/c6f734534e2cca51fd69797936a78ef2e95ce232-139x97.png",
       "coverImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/c31ba8e27bccd73d7155b9ed691c5c25bda36957-1885x913.png",
-        "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAABm0lEQVQokWVSy27bMBD0/19zaA/5guTcQ4GiRuIm9UOyY0mUKFmSbZGUSIp6+AumIB25RnsYYLnYHQ5nOKvrGk3TwBiDYRjQ971D13VQukUjFYSoIeoGWreuP81MMMagkdLNzqbmOI43XC4X6NYgzgpsPghW2xBLP4C3j0HSwi3ez4/jeCOf2WXbsOosplppjeRQOrLFaofX5Q7zdw8/FmsQmqPrriKGz51JyMwWbduCMQbBhXt+Qil83welFHmWIvrYgdIUhB7w8rbGxt87G5SUYFUFa9v0SkdoG0mcIEszlOUR8/kLnp6f8f72C8l+i+3iJ1ISgXEBEiUIgwjVucL5eEISEZR54Xy8KbSq8kOO0/HkVAYhwe/lCjEhKLIUNNijOh2hlEZVMUcmpQRnDGVRQDCOvuv/Elp265lN0EJK5ZZtrbWGUuoz+d6djbkmbfcs7kO9KuQcZUxwTikaISCEAOfcEVkljPHb17KXTAFaovtQHGE/DIg2a3z78oDvj19BfA9RROBtPOdpnufwvS3CIIRsmv++y7/4A4lykrjbX3aDAAAAAElFTkSuQmCC"
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/192568229fa53340956f4aff2dafb2ad451a668f-1896x908.png",
+        "alt": "ShaheerAndCo",
+        "lqip": ""
       },
       "description": [
         {
-          "_key": "3e3dae1bfd2f",
+          "_key": "b100",
           "_type": "block",
           "children": [
             {
-              "_key": "ceb92a7793340",
+              "_key": "s99",
               "_type": "span",
               "marks": [],
-              "text": "Welcome to WOAH: Your Premier Auction Site"
+              "text": "Marketing site for ShaheerAndCo, a global importer of shoe chemicals. Built with React on the frontend and Node.js with Express on the backend, including contact email delivery."
             }
           ],
-          "markDefs": [],
-          "style": "h3"
+          "style": "normal",
+          "markDefs": []
         },
         {
-          "_key": "ba09b5ed5b60",
+          "_key": "b102",
           "_type": "block",
           "children": [
             {
-              "_key": "e333fd740ebb0",
+              "_key": "s101",
               "_type": "span",
               "marks": [],
-              "text": "🛡️ Full Authentication"
+              "text": "Highlights"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
+          "style": "h3",
+          "markDefs": []
         },
         {
-          "_key": "9e9af8497b5e",
+          "_key": "b104",
           "_type": "block",
           "children": [
             {
-              "_key": "a76de00a99f60",
+              "_key": "s103",
               "_type": "span",
               "marks": [],
-              "text": "Experience secure transactions with our comprehensive authentication system, ensuring peace of mind for all users."
+              "text": "Responsive React frontend"
             }
           ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "af842d7d496f",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "725e7fc360360",
-              "_type": "span",
-              "marks": [],
-              "text": "📝 Post Ads"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "29e44b9622e1",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "1292aa3ff4620",
-              "_type": "span",
-              "marks": [],
-              "text": "List your items for auction effortlessly and reach a wide audience of potential buyers."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "5a34a56a85eb",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "224c0615405d0",
-              "_type": "span",
-              "marks": [],
-              "text": "⏳ Bid on Items"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "94d269c5a2a2",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "a3a154d5cf270",
-              "_type": "span",
-              "marks": [],
-              "text": "Engage in thrilling auctions where users bid on listed items until the timer runs out."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "d8e314464cbd",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "48f839b5bf240",
-              "_type": "span",
-              "marks": [],
-              "text": "🏆 Highest Bidder Wins"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "8a2c216a2002",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "962ee68aa05d0",
-              "_type": "span",
-              "marks": [],
-              "text": "Winning bids go to the highest bidder once the auction timer expires, ensuring fair and competitive transactions."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "947c86d241cb",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "fdbe71441ca30",
-              "_type": "span",
-              "marks": [],
-              "text": "💼 How It Works"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "84d54f736fb1",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "9bc37bd439560",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Post Ads"
-            },
-            {
-              "_key": "9bc37bd439561",
-              "_type": "span",
-              "marks": [],
-              "text": ": List your items with detailed descriptions and images."
-            }
-          ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "371137212794",
+          "_key": "b106",
           "_type": "block",
           "children": [
             {
-              "_key": "92535f88c0070",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Bid"
-            },
-            {
-              "_key": "92535f88c0071",
+              "_key": "s105",
               "_type": "span",
               "marks": [],
-              "text": ": Participate in auctions by placing competitive bids."
+              "text": "Node.js and Express backend"
             }
           ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "c98ed86270c2",
+          "_key": "b108",
           "_type": "block",
           "children": [
             {
-              "_key": "5b3e8bfb30420",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Win"
-            },
-            {
-              "_key": "5b3e8bfb30421",
+              "_key": "s107",
               "_type": "span",
               "marks": [],
-              "text": ": Securely complete transactions with the highest bidder winning the auction item."
+              "text": "Contact form with email delivery"
             }
           ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         }
-      ],
-      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/8801064d1ece8a6f84a7e8cfa825c7f789576e6a-726x425.png",
+      ]
+    },
+    {
+      "_id": "woah",
       "name": "WOAH",
+      "slug": "woah",
+      "tagline": "Online auction platform",
       "projectUrl": "https://woah-ruddy.vercel.app/",
       "repository": "https://github.com/Ali01129/WOAH",
-      "slug": "woah",
-      "tagline": "Your Premier Auction Site"
-    },
-    {
-      "_id": "ed7a4548-c393-4771-bc49-fe339fa6096e",
+      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/8801064d1ece8a6f84a7e8cfa825c7f789576e6a-726x425.png",
       "coverImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/f3c3e6d3d95ecca579112f5e749b461a785cb384-1920x874.jpg",
-        "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQj/xAAfEAACAgICAwEAAAAAAAAAAAABAgADBBExMhIhcUH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDofOQWUMKnsp8W9tVzJ8aiyq+tmysp1bgPrRlh65H2Y3TH+iWFPUB9kqVIOtQjB+wkH//Z"
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/c31ba8e27bccd73d7155b9ed691c5c25bda36957-1885x913.png",
+        "alt": "WOAH",
+        "lqip": ""
       },
       "description": [
         {
-          "_key": "fc618458b7a6",
+          "_key": "b110",
           "_type": "block",
           "children": [
             {
-              "_key": "05df72fa92170",
+              "_key": "s109",
               "_type": "span",
               "marks": [],
-              "text": "Welcome to BloodConnect: Connecting Blood Donors with Recipients"
+              "text": "WOAH is an auction site where users list items, place timed bids, and the highest bidder wins when the clock runs out."
             }
           ],
-          "markDefs": [],
-          "style": "h3"
+          "style": "normal",
+          "markDefs": []
         },
         {
-          "_key": "e729365fd24f",
+          "_key": "b112",
           "_type": "block",
           "children": [
             {
-              "_key": "21c498cd4c0b0",
+              "_key": "s111",
               "_type": "span",
               "marks": [],
-              "text": "🩸 Register and Donate Blood Effortlessly"
+              "text": "Features"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
+          "style": "h3",
+          "markDefs": []
         },
         {
-          "_key": "e8aa0ebfba61",
+          "_key": "b114",
           "_type": "block",
           "children": [
             {
-              "_key": "b3fe977de0c90",
+              "_key": "s113",
               "_type": "span",
               "marks": [],
-              "text": "Join BloodConnect to register as a blood donor and easily share your information to help save lives."
+              "text": "User authentication"
             }
           ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "957dd40e1370",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "feb4dbf8fbf80",
-              "_type": "span",
-              "marks": [],
-              "text": "🔍 Dynamic Search Capabilities"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "a528d466a372",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "6942e09a267b0",
-              "_type": "span",
-              "marks": [],
-              "text": "Utilize our dynamic search feature to find donors based on location, blood group, or name, ensuring quick access to potential donors."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "338a034d2d74",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "a9510191679c0",
-              "_type": "span",
-              "marks": [],
-              "text": "💡 How It Works"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "8049438f55f6",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "aa40ec2489eb0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Register"
-            },
-            {
-              "_key": "aa40ec2489eb1",
-              "_type": "span",
-              "marks": [],
-              "text": ": Sign up as a donor and provide your details."
-            }
-          ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "b9e442b4ec4a",
+          "_key": "b116",
           "_type": "block",
           "children": [
             {
-              "_key": "67db15b4c0c90",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Search"
-            },
-            {
-              "_key": "67db15b4c0c91",
+              "_key": "s115",
               "_type": "span",
               "marks": [],
-              "text": ": Use our dynamic search tool to find donors matching specific criteria."
+              "text": "Post auction listings with details and images"
             }
           ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "0ef6efcb2fec",
+          "_key": "b118",
           "_type": "block",
           "children": [
             {
-              "_key": "460b3e103bff0",
-              "_type": "span",
-              "marks": [
-                "strong"
-              ],
-              "text": "Connect"
-            },
-            {
-              "_key": "460b3e103bff1",
+              "_key": "s117",
               "_type": "span",
               "marks": [],
-              "text": ": Contact donors directly to arrange blood donations quickly and efficiently."
+              "text": "Live bidding until the timer expires"
             }
           ],
+          "style": "normal",
           "level": 1,
-          "listItem": "number",
-          "markDefs": [],
-          "style": "normal"
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "e1a7b43ebef9",
+          "_key": "b120",
           "_type": "block",
           "children": [
             {
-              "_key": "62097d9499860",
+              "_key": "s119",
               "_type": "span",
               "marks": [],
-              "text": "🌟 Make a Difference Today"
+              "text": "Highest bidder wins automatically"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "fbbea0c1a6bc",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "f3f28828e3800",
-              "_type": "span",
-              "marks": [],
-              "text": "Join BloodConnect and be a part of our mission to save lives through voluntary blood donations."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         }
-      ],
-      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/831fbaafe83bc50d7bff7bf77794c11a89ba05b2-359x131.png",
+      ]
+    },
+    {
+      "_id": "bloodconnect",
       "name": "BloodConnect",
+      "slug": "bloodconnect",
+      "tagline": "Connect donors and recipients",
       "projectUrl": "https://bloodconnect-iota.vercel.app/",
       "repository": "https://github.com/Ali01129/bloodconnect",
-      "slug": "bloodconnect",
-      "tagline": "Share blood Save lifes"
-    },
-    {
-      "_id": "ff791163-d137-4dff-80cc-c4cd2b69307b",
+      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/831fbaafe83bc50d7bff7bf77794c11a89ba05b2-359x131.png",
       "coverImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/5810686e665f0d71186d6b8f9d908fed09242038-1047x590.png",
-        "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABJ0AAASdAHeZh94AAAC8UlEQVQokY2S60+TZxiH3z8DlWyyoZRaOW5y8IQLk5g4CsKEjZMyI1FjojA1MYsLTuKpmOAJHWyzm5SEBg+g4uywgFLKK+1LR+kBepK2NNIobko87MO1vGV/wD5cz3Of8rvv584jqD4oIWNFOZ8qKliTLFMZszMSy5Fzyvji/0WyzLJihPTEMgrW7mFbQT0lBQ0Uf34Qdf6BWExuoPqwNFaYtEQdY2XcIkn/3SvjChf9JWoUS4sQUj/aTn52HcWbD1L+xRFqy75nd+Vxakq/oyj/AFvW7+WzNbvIUVWRpawgV1VF7upqclZVsTalhrzMb9iYXht7lTJ+G4J8yKLZq6qoVB+lpamDzp/6aGvppvkHLZfO6ris6aTp6FWONVxE0/gL505oaTzUyolDP3LlTBetmi721ZyMiQrymPLYqQlfsn/HKYYfWAlNhbGPTWM22vBOzDDreYZtxIWpX8LvDBKcnsXUJ2HUifjMT5mx+7iquc6G9J0ICnk/S4tI+7iMhrpmRv4Q8UgTuCwunFYfL0IveRN9S9AdwT7mIeiPEvDNMTboxNrn5IUjzEvXE7SaFvLSaxAUCWUkJVaQpqikfreGh71DWAZMWB+PMzE6xZz/Oa8jC/jtIYaNNu48sNDZK3Lv7hMmRS8L4QjzziGunT6zKLg66StSU6vJVFVTX9fM6ICNgHsGl+TFYnTgMweJjEdxDHkw9I6i1Q9wpdPIrZ4RnJKPd/Ov+SsU4tp5HXkZtQg5yWryPylkXcp2vt1zDqfk592rfwh75pCMLryPgoTNz7D3T2My2BBFN2bRzWPjOO5xP+//fs+r6AK/tvaQl7kLIWvFVjaptpCrLGF/7SnEwQmiwec4rF5MBokpi5/Q5CzSkINhgxXvZAC/a4YRo4Q4+Cdhb4SAM8Dls7+xIW2n/G3UKOMLSVlewteFR2i/oKdX309Hew9t57u40XGfu90Pud52O+bf1P1OT5eBny/pF/O6PvTaWxze20S2soJ/AWvXOpLHOoFxAAAAAElFTkSuQmCC"
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/f3c3e6d3d95ecca579112f5e749b461a785cb384-1920x874.jpg",
+        "alt": "BloodConnect",
+        "lqip": ""
       },
       "description": [
         {
-          "_key": "f0155a597f8c",
+          "_key": "b122",
           "_type": "block",
           "children": [
             {
-              "_key": "f86f740ff8770",
+              "_key": "s121",
               "_type": "span",
               "marks": [],
-              "text": "Introducing Quick Chat: Your Secure Messaging App in Flutter with Dart"
+              "text": "BloodConnect helps people register as blood donors and find matches by location, blood group, or name so donations can happen faster."
             }
           ],
-          "markDefs": [],
-          "style": "h3"
+          "style": "normal",
+          "markDefs": []
         },
         {
-          "_key": "22bb0f587c5d",
+          "_key": "b124",
           "_type": "block",
           "children": [
             {
-              "_key": "a760bddc20370",
+              "_key": "s123",
               "_type": "span",
               "marks": [],
-              "text": "🔒 End-to-End Encryption"
+              "text": "Features"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
+          "style": "h3",
+          "markDefs": []
         },
         {
-          "_key": "16f4108e62b8",
+          "_key": "b126",
           "_type": "block",
           "children": [
             {
-              "_key": "8f559e90b6c20",
+              "_key": "s125",
               "_type": "span",
               "marks": [],
-              "text": "Ensure your conversations are secure with built-in end-to-end encryption powered by Firebase backend."
+              "text": "Donor registration and profiles"
             }
           ],
-          "markDefs": [],
-          "style": "normal"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "b4d571ab493f",
+          "_key": "b128",
           "_type": "block",
           "children": [
             {
-              "_key": "7fd7912caf660",
+              "_key": "s127",
               "_type": "span",
               "marks": [],
-              "text": "📱 Seamless Chatting Experience"
+              "text": "Search by location, blood group, or name"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "e8086e58fa28",
+          "_key": "b130",
           "_type": "block",
           "children": [
             {
-              "_key": "7be483a5541b0",
+              "_key": "s129",
               "_type": "span",
               "marks": [],
-              "text": "Enjoy a smooth and intuitive interface for seamless messaging interactions."
+              "text": "Direct contact to arrange donations"
             }
           ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "ef439ab7ba19",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "e3c91f9e46d50",
-              "_type": "span",
-              "marks": [],
-              "text": "🛡️ Secure Authentication"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "6a55665d6b70",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "97d4f02d09260",
-              "_type": "span",
-              "marks": [],
-              "text": "Protect your account with robust authentication features integrated into the app."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "8c2e877b5b59",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "3cc888d5f3840",
-              "_type": "span",
-              "marks": [],
-              "text": "🌐 Powered by Firebase"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "91119c3ec121",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "5792c88b20f70",
-              "_type": "span",
-              "marks": [],
-              "text": "Utilize Firebase backend for reliable and scalable messaging infrastructure."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "c1549d6be088",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "b3df805c5b920",
-              "_type": "span",
-              "marks": [],
-              "text": "🌟 Modern Design"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "3508469b52c1",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "676c80cc03f30",
-              "_type": "span",
-              "marks": [],
-              "text": "Experience modern aesthetics and user-friendly design for effortless navigation."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "edb574813f42",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "283ac6df1ae70",
-              "_type": "span",
-              "marks": [],
-              "text": "📥 Download Now"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "aaa3f7731ee0",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "a7c8018313070",
-              "_type": "span",
-              "marks": [],
-              "text": "Download Quick Chat from "
-            },
-            {
-              "_key": "a7c8018313071",
-              "_type": "span",
-              "marks": [
-                "6ad81dd5427e"
-              ],
-              "text": "GitHub"
-            },
-            {
-              "_key": "a7c8018313072",
-              "_type": "span",
-              "marks": [],
-              "text": " and start messaging securely today!"
-            }
-          ],
-          "markDefs": [
-            {
-              "_key": "6ad81dd5427e",
-              "_type": "link",
-              "href": "https://github.com"
-            }
-          ],
-          "style": "normal"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         }
-      ],
-      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/dca20d3d89fc1873a370639dd2354a05562165a5-980x980.jpg",
+      ]
+    },
+    {
+      "_id": "quickchat",
       "name": "QuickChat",
+      "slug": "quickchat",
+      "tagline": "Secure messaging in Flutter",
       "projectUrl": "https://github.com/Ali01129/QuickChat_flutter_app",
       "repository": "https://github.com/Ali01129/QuickChat_flutter_app",
-      "slug": "quickchat",
-      "tagline": "Seamless chatting application"
-    },
-    {
-      "_id": "591bc244-3d22-42c9-b5a4-7064b75e6201",
+      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/dca20d3d89fc1873a370639dd2354a05562165a5-980x980.jpg",
       "coverImage": {
-        "alt": null,
-        "image": "https://cdn.sanity.io/images/hjgjohsz/production/9cb60152a36e2b14edacee8506f4ae4422a8b86e-847x507.png",
-        "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADc0lEQVQokV2PbWgbdRzHA+IbwTciNk9NLsldHu6uvdzTP7lLcnlObdI23dzoRAfb0Fahq1tL5zZxtejUjbm6NpnbLCnaIci21hNxFDo6BN8oWLo5cXUVEV8Jrq2szNsu/59kVRm++PDl933x4fuzOAPyo3ZKIKw+Xm3y8ekmL5/azHDa6uPTNlJI2ynxPxz+BtKDtFNi6p8+6aBExhmQH7fYKfHJ5qDcR9DRWQ+jXPEwyjzBKPONdNPReYdfmreRwv/gH76v2EhhzkYK7zgokbPYSMFFtsZPcUr+DylRxGKi3WwgaUWTU/Kmh1FMq483baRghoSUmchtMbOlHjOW7TYDvGbaSaFu9fH3GnI7JRYsVh9PkK2xKqfk12WtBHKyhOVkCVCyBLzaBrSUBlpKAa8W4Lld/XD27DTMzlyGiUoNytt3A9mqgjso111B6aqDEtsfCN2hSCXAa2ssygKLsnUWZXFISuOQmML5zh7cNzCE97/6Gq6cruGb36/gjdW7+Ltvr+Oh4ddxIvM0SGrKZKXEgisobwoJJlphUXatsezfhZxSABZloGfPi3Ds9EkYn6rCp5dm4NeV38C8cx9+WPoRRkaP4u5tz0Cho2giLbNA0Kjd0uTlCQ+rVDglvxbNdIGa68bx/JaGGMLxApT37IQDE4fgyIejULswDbeWf4aN1T/h2uJ1ePfEe3hgeB+80N9npksdCy5a2lzoeujllmi+zqkF3BLJYS6Ww+W+5/GBycP4jfNv4trsNL65/BNevX0bLy4u4fEzZ/CJ6hiMHn/L7NyxY1Noo0TC0apVCSG9HhQUoMMSeBgEzoAMfiEBz/b3wqkLVZj8YgoufqnDyq1f4M76BlxbugHHT47BvoOD0PvKy/VcV/kqwaB2i5OOuhxKecyrlX+PJmP3tTj3F8nwxlPesOFtUYye3b3G+LkPjHMf1Yypjz8xvv7qG2P5xooxd3nBGBw+ZHRt3XqvrdRxN6Jl5wga5S3NjPKEPdK5y612nI9o6udJLfwZxQp6k4/X3XREzxS36S/tHdL37j+oDwwe1o++/b4+PjGpHxk5pndv36krWk6X1dRMixgfcYcQY2kOoUesQcVuC0bDBCMhkuVlp59HVh+P7JSIvKyCGCmFWLlBGglqG5ITRRRW8sjPxWQPjRARkiVXUPI1B6TH/gYUSIiu5rSmggAAAABJRU5ErkJggg=="
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/5810686e665f0d71186d6b8f9d908fed09242038-1047x590.png",
+        "alt": "QuickChat",
+        "lqip": ""
       },
       "description": [
         {
-          "_key": "fd16204d7ca8",
+          "_key": "b132",
           "_type": "block",
           "children": [
             {
-              "_key": "e3ab9395d70d0",
+              "_key": "s131",
               "_type": "span",
               "marks": [],
-              "text": "Discover the Ultimate Chess Experience in Flutter with Dart 🌟"
+              "text": "QuickChat is a Flutter messaging app backed by Firebase, with end-to-end encryption, authentication, and a clean chat UI."
             }
           ],
-          "markDefs": [],
-          "style": "h3"
+          "style": "normal",
+          "markDefs": []
         },
         {
-          "_key": "461c459f215e",
+          "_key": "b134",
           "_type": "block",
           "children": [
             {
-              "_key": "a12ac7a86a6f0",
+              "_key": "s133",
               "_type": "span",
               "marks": [],
-              "text": "🎨 Responsive Chessboard Interface"
+              "text": "Features"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
+          "style": "h3",
+          "markDefs": []
         },
         {
-          "_key": "837a1d8d9ddd",
+          "_key": "b136",
           "_type": "block",
           "children": [
             {
-              "_key": "538e9e3ba1df0",
+              "_key": "s135",
               "_type": "span",
               "marks": [],
-              "text": "Immerse yourself in intuitive piece movements and placements with a responsive chessboard interface."
+              "text": "End-to-end encrypted conversations"
             }
           ],
-          "markDefs": [],
-          "style": "normal"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "c286fcdeadab",
+          "_key": "b138",
           "_type": "block",
           "children": [
             {
-              "_key": "f95356d4d19a0",
+              "_key": "s137",
               "_type": "span",
               "marks": [],
-              "text": "🛡️ Rule Perfection"
+              "text": "Secure authentication"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "42f28b7dab4d",
+          "_key": "b140",
           "_type": "block",
           "children": [
             {
-              "_key": "65f17b030d320",
+              "_key": "s139",
               "_type": "span",
               "marks": [],
-              "text": "Experience flawless adherence to chess rules with robust move validation features."
+              "text": "Firebase-backed realtime messaging"
             }
           ],
-          "markDefs": [],
-          "style": "normal"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         },
         {
-          "_key": "87161987cf93",
+          "_key": "b142",
           "_type": "block",
           "children": [
             {
-              "_key": "d7883a66de9d0",
+              "_key": "s141",
               "_type": "span",
               "marks": [],
-              "text": "🔍 Dynamic Checkmate Detection"
+              "text": "Modern, mobile-first design"
             }
           ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "eb1522aa4f7a",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "292c125162f80",
-              "_type": "span",
-              "marks": [],
-              "text": "Stay engaged with real-time checks and dynamic checkmate detections during every move."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "d8356be1c011",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "fbc2a2934ed50",
-              "_type": "span",
-              "marks": [],
-              "text": "🎮 Versatile Gameplay"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "f5fed5eeba17",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "a5f8bfaea2770",
-              "_type": "span",
-              "marks": [],
-              "text": "Choose your challenge with options for player versus player or player versus AI modes."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "02b9ffa3f65e",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "6b4fce5f2a780",
-              "_type": "span",
-              "marks": [],
-              "text": "🎬 Seamless Animations"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "f82a7d1ee640",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "e301f5bd83c50",
-              "_type": "span",
-              "marks": [],
-              "text": "Enjoy fluid animations that bring every move to life, enhancing your chess-playing experience."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "76903876d020",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "ee3e912b8da30",
-              "_type": "span",
-              "marks": [],
-              "text": "🌌 Sleek and User-Friendly Design"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "f47b8943e33c",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "5605dd7861300",
-              "_type": "span",
-              "marks": [],
-              "text": "Navigate effortlessly through a sleek, minimalist design that prioritizes ease of use."
-            }
-          ],
-          "markDefs": [],
-          "style": "normal"
-        },
-        {
-          "_key": "6a0874ba055e",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "504ccc26161c0",
-              "_type": "span",
-              "marks": [],
-              "text": "📥 Download APK from GitHub"
-            }
-          ],
-          "markDefs": [],
-          "style": "h4"
-        },
-        {
-          "_key": "cc0a7f83cd85",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "1d4bad74099e0",
-              "_type": "span",
-              "marks": [],
-              "text": "Get started now! Download the APK from "
-            },
-            {
-              "_key": "1d4bad74099e1",
-              "_type": "span",
-              "marks": [
-                "e6baab54b83e"
-              ],
-              "text": "GitHub"
-            },
-            {
-              "_key": "1d4bad74099e2",
-              "_type": "span",
-              "marks": [],
-              "text": " and dive into an unparalleled chess experience on your mobile device."
-            }
-          ],
-          "markDefs": [
-            {
-              "_key": "e6baab54b83e",
-              "_type": "link",
-              "href": "https://github.com/Ali01129/chess_game_flutter"
-            }
-          ],
-          "style": "normal"
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
         }
-      ],
-      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/ec51fea8ee03065e283c704c461f891c02cb42ef-612x612.jpg",
+      ]
+    },
+    {
+      "_id": "chess-game",
       "name": "Chess",
+      "slug": "chess-game",
+      "tagline": "Chess game built with Flutter",
       "projectUrl": "https://github.com/Ali01129/chess_game_flutter",
       "repository": "https://github.com/Ali01129/chess_game_flutter",
-      "slug": "chess-game",
-      "tagline": "Chess game in Flutter"
+      "logo": "https://cdn.sanity.io/images/hjgjohsz/production/ec51fea8ee03065e283c704c461f891c02cb42ef-612x612.jpg",
+      "coverImage": {
+        "image": "https://cdn.sanity.io/images/hjgjohsz/production/9cb60152a36e2b14edacee8506f4ae4422a8b86e-847x507.png",
+        "alt": "Chess",
+        "lqip": ""
+      },
+      "description": [
+        {
+          "_key": "b144",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s143",
+              "_type": "span",
+              "marks": [],
+              "text": "A Flutter chess app with rule validation, checkmate detection, player-vs-player and player-vs-AI modes, and smooth board animations."
+            }
+          ],
+          "style": "normal",
+          "markDefs": []
+        },
+        {
+          "_key": "b146",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s145",
+              "_type": "span",
+              "marks": [],
+              "text": "Features"
+            }
+          ],
+          "style": "h3",
+          "markDefs": []
+        },
+        {
+          "_key": "b148",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s147",
+              "_type": "span",
+              "marks": [],
+              "text": "Responsive chessboard with validated moves"
+            }
+          ],
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
+        },
+        {
+          "_key": "b150",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s149",
+              "_type": "span",
+              "marks": [],
+              "text": "Real-time check and checkmate detection"
+            }
+          ],
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
+        },
+        {
+          "_key": "b152",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s151",
+              "_type": "span",
+              "marks": [],
+              "text": "Play against another player or AI"
+            }
+          ],
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
+        },
+        {
+          "_key": "b154",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s153",
+              "_type": "span",
+              "marks": [],
+              "text": "Animated piece movement"
+            }
+          ],
+          "style": "normal",
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": []
+        }
+      ]
     }
   ],
   "posts": [],
