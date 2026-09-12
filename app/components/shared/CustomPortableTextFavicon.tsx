@@ -1,14 +1,11 @@
-import { PortableTextComponents } from "@portabletext/react";
+import { PortableTextComponents, toPlainText } from "@portabletext/react";
 import Favicon from "../../utils/favicon";
 import RefLink from "./RefLink";
 
 export const CustomPortableTextFavicon: PortableTextComponents = {
   block: {
     h3: ({ children, value }) => {
-      const text =
-        value?.children
-          ?.map((child: { text?: string }) => child.text ?? "")
-          .join("") ?? "";
+      const text = value ? toPlainText([value]) : "";
       const id = text
         .toLowerCase()
         .replaceAll(/[^-\w]+/g, "-")
