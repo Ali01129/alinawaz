@@ -38,13 +38,41 @@
             {
               "_key": "f47bf39007170",
               "_type": "span",
-              "marks": [
-                "057ec326b3cf"
-              ],
+              "marks": [],
               "text": "Technologies"
             }
           ],
           "style": "h3"
+        },
+        {
+          "_key": "c8e4a1f2b903",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "d1a2b3c4e5f60",
+              "_type": "span",
+              "marks": [
+                "a9b8c7d6e5f4"
+              ],
+              "text": "NestJS"
+            },
+            {
+              "_key": "d1a2b3c4e5f61",
+              "_type": "span",
+              "marks": [],
+              "text": " - Node.js Framework"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "a9b8c7d6e5f4",
+              "_type": "link",
+              "href": "https://nestjs.com"
+            }
+          ],
+          "style": "normal"
         },
         {
           "_key": "f26a4f3e5605",
@@ -71,37 +99,7 @@
             {
               "_key": "39282c00e685",
               "_type": "link",
-              "href": "https://reactjs.org/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "e8dd5c59dab6",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "a2554356fe30",
-              "_type": "span",
-              "marks": [
-                "cd7eb619ba06"
-              ],
-              "text": "React"
-            },
-            {
-              "_key": "65b193cf5afc",
-              "_type": "span",
-              "marks": [],
-              "text": " - UI Library"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "cd7eb619ba06",
-              "_type": "link",
-              "href": "https://reactjs.org/?ref=victoreke.com"
+              "href": "https://reactnative.dev"
             }
           ],
           "style": "normal"
@@ -131,7 +129,37 @@
             {
               "_key": "1ce22229b34e",
               "_type": "link",
-              "href": "https://nextjs.org/?ref=victoreke.com"
+              "href": "https://nextjs.org"
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "e8dd5c59dab6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "a2554356fe30",
+              "_type": "span",
+              "marks": [
+                "cd7eb619ba06"
+              ],
+              "text": "React"
+            },
+            {
+              "_key": "65b193cf5afc",
+              "_type": "span",
+              "marks": [],
+              "text": " - UI Library"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "cd7eb619ba06",
+              "_type": "link",
+              "href": "https://react.dev"
             }
           ],
           "style": "normal"
@@ -161,7 +189,7 @@
             {
               "_key": "2609e841713a",
               "_type": "link",
-              "href": "https://tailwindcss.com/?ref=victoreke.com"
+              "href": "https://tailwindcss.com"
             }
           ],
           "style": "normal"
@@ -182,7 +210,7 @@
               "_key": "b6592021ecfb1",
               "_type": "span",
               "marks": [],
-              "text": " - Typed Superset of JavaScript Library"
+              "text": " - Typed Superset of JavaScript"
             }
           ],
           "level": 1,
@@ -191,7 +219,7 @@
             {
               "_key": "b508ef474030",
               "_type": "link",
-              "href": "https://www.typescriptlang.org/?ref=victoreke.com"
+              "href": "https://www.typescriptlang.org"
             }
           ],
           "style": "normal"
@@ -221,37 +249,7 @@
             {
               "_key": "fa3aee2d9679",
               "_type": "link",
-              "href": "https://www.python.org/?ref=victoreke.com"
-            }
-          ],
-          "style": "normal"
-        },
-        {
-          "_key": "4b7257f52fd8",
-          "_type": "block",
-          "children": [
-            {
-              "_key": "f51fa64903fb",
-              "_type": "span",
-              "marks": [
-                "7b8ea9bd9d14"
-              ],
-              "text": "C"
-            },
-            {
-              "_key": "6af29f39c6db",
-              "_type": "span",
-              "marks": [],
-              "text": " - Programming Language"
-            }
-          ],
-          "level": 1,
-          "listItem": "bullet",
-          "markDefs": [
-            {
-              "_key": "7b8ea9bd9d14",
-              "_type": "link",
-              "href": "https://redux.js.org/?ref=victoreke.com"
+              "href": "https://www.python.org"
             }
           ],
           "style": "normal"
@@ -263,13 +261,41 @@
             {
               "_key": "e419fd501ed80",
               "_type": "span",
-              "marks": [
-                "0a5a6ebfb4d8"
-              ],
+              "marks": [],
               "text": "Tools"
             }
           ],
           "style": "h3"
+        },
+        {
+          "_key": "g1t2h3u4b5c6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "g1t2h3u4b5c60",
+              "_type": "span",
+              "marks": [
+                "g1t2h3u4b5c6l"
+              ],
+              "text": "GitHub"
+            },
+            {
+              "_key": "g1t2h3u4b5c61",
+              "_type": "span",
+              "marks": [],
+              "text": " - Version Control"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "g1t2h3u4b5c6l",
+              "_type": "link",
+              "href": "https://github.com"
+            }
+          ],
+          "style": "normal"
         },
         {
           "_key": "7afabf0b1e33",
@@ -287,7 +313,7 @@
               "_key": "ea43ad874e7d1",
               "_type": "span",
               "marks": [],
-              "text": ": Text Editor"
+              "text": " - Text Editor"
             }
           ],
           "level": 1,
@@ -296,7 +322,67 @@
             {
               "_key": "1eb27fe270f7",
               "_type": "link",
-              "href": "https://code.visualstudio.com/?ref=victoreke.com"
+              "href": "https://code.visualstudio.com"
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "a1b2c3d4e5f6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "f6e5d4c3b2a10",
+              "_type": "span",
+              "marks": [
+                "c1u2r3s4o5r6"
+              ],
+              "text": "Cursor"
+            },
+            {
+              "_key": "f6e5d4c3b2a11",
+              "_type": "span",
+              "marks": [],
+              "text": " - AI Code Editor"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "c1u2r3s4o5r6",
+              "_type": "link",
+              "href": "https://cursor.com"
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "b2c3d4e5f6a7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "a7b6c5d4e3f20",
+              "_type": "span",
+              "marks": [
+                "c1a2u3d4e5c6"
+              ],
+              "text": "Claude Code"
+            },
+            {
+              "_key": "a7b6c5d4e3f21",
+              "_type": "span",
+              "marks": [],
+              "text": " - AI Coding Agent"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "c1a2u3d4e5c6",
+              "_type": "link",
+              "href": "https://www.anthropic.com/claude-code"
             }
           ],
           "style": "normal"
@@ -326,7 +412,7 @@
             {
               "_key": "3de6a995f81e",
               "_type": "link",
-              "href": "https://www.figma.com/?ref=victoreke.com"
+              "href": "https://www.figma.com"
             }
           ],
           "style": "normal"
